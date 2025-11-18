@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class OnTrigger : MonoBehaviour
 {
-    LayerMask _collisionLayerMask;
+    [SerializeField] LayerMask _collisionLayerMask;
 
     public UnityEvent<Collider2D> OnTriggerEnter, OnTriggerStay, OnTriggerExit;
 
