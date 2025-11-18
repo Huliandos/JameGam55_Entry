@@ -60,7 +60,7 @@ namespace Player{
             foreach(Limb limb in _limbs)
             {
                 //Limb not attached means it's free to be used
-                if (!limb.IsAttached)
+                if (limb.AttachedTo == null)
                 {
                     chosenLimb = limb;
                     break;

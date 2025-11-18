@@ -1,36 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1079100211301656020
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6737564123287112756}
-  m_Layer: 0
-  m_Name: LimbVisualRefAttachement
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6737564123287112756
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079100211301656020}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5360917435913752022}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3132090594649367583
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,7 +12,7 @@ GameObject:
   - component: {fileID: 8293421239189687810}
   - component: {fileID: 5351634594501824765}
   - component: {fileID: 8896282282656975424}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LimbEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3132090594649367583}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -110,9 +79,9 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 0
-  m_Distance: 0.25
+  m_Distance: 0.005
   m_DampingRatio: 0.75
-  m_Frequency: 3
+  m_Frequency: 5
 --- !u!58 &8896282282656975424
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -160,8 +129,9 @@ GameObject:
   - component: {fileID: 6391443483191880690}
   - component: {fileID: 1664380468187485758}
   - component: {fileID: 1986875096766425259}
+  - component: {fileID: 3935708931429085106}
   - component: {fileID: 2164842789590631620}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LimbMiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +147,7 @@ Transform:
   m_GameObject: {fileID: 4869533145744087189}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -232,6 +202,32 @@ SpringJoint2D:
   m_Distance: 1
   m_DampingRatio: 0.25
   m_Frequency: 3
+--- !u!233 &3935708931429085106
+HingeJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4869533145744087189}
+  m_Enabled: 0
+  serializedVersion: 4
+  m_EnableCollision: 1
+  m_ConnectedRigidBody: {fileID: 8293421239189687810}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: -1}
+  m_UseConnectedAnchor: 1
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 0
+    m_MaximumMotorForce: 10000
+  m_UseLimits: 0
+  m_AngleLimits:
+    m_LowerAngle: 0
+    m_UpperAngle: 180
 --- !u!58 &2164842789590631620
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -277,11 +273,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5360917435913752022}
+  - component: {fileID: 6315609901356633280}
   - component: {fileID: 268220511314237761}
   - component: {fileID: 7702866911007373857}
-  - component: {fileID: 6315609901356633280}
+  - component: {fileID: 406773158342304807}
   - component: {fileID: 5874595139673058236}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: LimbStart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -303,9 +300,22 @@ Transform:
   m_Children:
   - {fileID: 6391443483191880690}
   - {fileID: 3792032492799945701}
-  - {fileID: 6737564123287112756}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6315609901356633280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5679597568794398441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e0868dd32560bf42b49c1e731cf7391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _attachementPoint: {fileID: 5351634594501824765}
+  _lineRenderer: {fileID: 556734700410235678}
 --- !u!50 &268220511314237761
 Rigidbody2D:
   serializedVersion: 5
@@ -354,21 +364,32 @@ SpringJoint2D:
   m_Distance: 1
   m_DampingRatio: 0.25
   m_Frequency: 3
---- !u!114 &6315609901356633280
-MonoBehaviour:
+--- !u!233 &406773158342304807
+HingeJoint2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5679597568794398441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e0868dd32560bf42b49c1e731cf7391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _attachementPoint: {fileID: 5351634594501824765}
-  _lineRenderer: {fileID: 556734700410235678}
-  _lineAttachementRef: {fileID: 6737564123287112756}
+  m_Enabled: 0
+  serializedVersion: 4
+  m_EnableCollision: 1
+  m_ConnectedRigidBody: {fileID: 1664380468187485758}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: -1}
+  m_UseConnectedAnchor: 1
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 0
+    m_MaximumMotorForce: 10000
+  m_UseLimits: 0
+  m_AngleLimits:
+    m_LowerAngle: 0
+    m_UpperAngle: 359
 --- !u!58 &5874595139673058236
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -416,7 +437,7 @@ GameObject:
   - component: {fileID: 3792032492799945701}
   - component: {fileID: 556734700410235678}
   - component: {fileID: 1255579653883239176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LimbVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
