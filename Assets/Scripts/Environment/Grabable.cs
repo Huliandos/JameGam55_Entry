@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Grabable : MonoBehaviour
 {
+    bool _hasAttachedLimb; 
+
     [SerializeField] KeyCode _inputKey;
 
     [SerializeField] TextMeshProUGUI _text;
@@ -43,7 +45,14 @@ public class Grabable : MonoBehaviour
 
         if (Input.GetKeyDown(_inputKey))
         {
+            if (_hasAttachedLimb)
+            {
+                Player.PlayerBrain.Instance.DetachFromGrabable(this);
+                _hasAttachedLimb = false;
+                return;
+            }
             Player.PlayerBrain.Instance.AttachToGrabable(this);
+            _hasAttachedLimb = true;
         }
     }
 }
