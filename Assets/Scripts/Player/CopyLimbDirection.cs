@@ -4,9 +4,16 @@ public class CopyLimbDirection : MonoBehaviour
 {
     [SerializeField] Transform LimbEnd;
     [SerializeField] Transform LimbMiddle;
+    [SerializeField] int ExecuteEveryXFrames=3;
+
+    int frameCounter = 0;
 
     void Update()
     {
+        frameCounter++;
+        if (frameCounter % ExecuteEveryXFrames != 0)
+            return;
+
         Vector2 dir = LimbEnd.position - LimbMiddle.position;
 
         if (dir.sqrMagnitude < 0.001f)
