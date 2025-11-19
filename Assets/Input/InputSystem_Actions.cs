@@ -90,120 +90,237 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     ""maps"": [
         {
             ""name"": ""Player"",
-            ""id"": ""df70fa95-8a34-4494-b137-73ab6b9c7d37"",
+            ""id"": ""7490b435-7a56-4bca-9f9d-3e379681b69c"",
             ""actions"": [
                 {
-                    ""name"": ""Move"",
-                    ""type"": ""Value"",
-                    ""id"": ""351f2ccd-1f9f-44bf-9bec-d62ac5c5f408"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                },
-                {
-                    ""name"": ""Button_Set1_1"",
+                    ""name"": ""Button_Q"",
                     ""type"": ""Button"",
-                    ""id"": ""6c2ab1b8-8984-453a-af3d-a3c78ae1679a"",
+                    ""id"": ""c95117ca-74ae-4778-ae5d-ded86ddd1887"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Button_Set1_2"",
+                    ""name"": ""Button_W"",
                     ""type"": ""Button"",
-                    ""id"": ""dfc72718-4085-4293-9407-83f0038f7c43"",
+                    ""id"": ""cd832a36-b34b-4a62-8163-bbcfbec1014d"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Button_Set1_3"",
+                    ""name"": ""Button_E"",
                     ""type"": ""Button"",
-                    ""id"": ""3d1b6f2d-f39b-4916-b396-f8f62870765d"",
+                    ""id"": ""96b9de43-7caf-489b-afe3-82dc408135cf"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Button_Set1_4"",
+                    ""name"": ""Button_R"",
                     ""type"": ""Button"",
-                    ""id"": ""11969d6d-ea65-4610-ac16-e920bfd0609a"",
+                    ""id"": ""2b14b4ef-558f-4d59-9afd-e2d28104c134"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Button_Set2_1"",
+                    ""name"": ""Button_T"",
                     ""type"": ""Button"",
-                    ""id"": ""654f66ff-479f-4d95-b16b-add986d50c83"",
+                    ""id"": ""03008b5a-1cef-4992-8982-ff1d44b923bc"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Button_Set2_2"",
+                    ""name"": ""Button_Z"",
                     ""type"": ""Button"",
-                    ""id"": ""808a64f4-0f39-4c9a-9b81-a9e7ef117966"",
+                    ""id"": ""426bf6af-e5ed-4b0d-9bdc-fc2f08c14a72"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Button_Set2_3"",
+                    ""name"": ""Button_U"",
                     ""type"": ""Button"",
-                    ""id"": ""82e3f53c-54c3-4884-a6cb-3f65e3b85acb"",
+                    ""id"": ""93ebbde3-3a0e-40c3-89e1-c750f112325a"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Button_Set2_4"",
+                    ""name"": ""Button_I"",
                     ""type"": ""Button"",
-                    ""id"": ""5a462173-037a-4ce7-a39e-2c6881ad8e01"",
+                    ""id"": ""670abc2a-d67d-4eb9-854f-a26ed2d4364a"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Button_Set3_1"",
+                    ""name"": ""Button_O"",
                     ""type"": ""Button"",
-                    ""id"": ""0aa34e73-2df9-4666-b450-209569ea5f77"",
+                    ""id"": ""3529f872-5424-409c-94f0-400604bbf7dd"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Button_Set3_2"",
+                    ""name"": ""Button_P"",
                     ""type"": ""Button"",
-                    ""id"": ""790e8a5c-17e3-4f3b-891c-c8512035d179"",
+                    ""id"": ""668f8ae5-60e1-4df1-8835-803b683504fb"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Button_Set3_3"",
+                    ""name"": ""Button_A"",
                     ""type"": ""Button"",
-                    ""id"": ""3740b0f3-c5bc-40f4-922b-130a359b9735"",
+                    ""id"": ""6f0548cc-83b2-4dd8-acff-35075d699899"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Button_Set3_4"",
+                    ""name"": ""Button_S"",
                     ""type"": ""Button"",
-                    ""id"": ""74672a81-0458-478f-b713-9ef59ab84220"",
+                    ""id"": ""fafeed50-c60d-467d-adf4-2b6e352b33d3"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_D"",
+                    ""type"": ""Button"",
+                    ""id"": ""7532b8fc-7cb4-4591-a0b0-d997d142911b"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_F"",
+                    ""type"": ""Button"",
+                    ""id"": ""21f31084-f3a5-44e1-aebf-cbb311920544"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_G"",
+                    ""type"": ""Button"",
+                    ""id"": ""0a735ccc-5fa6-44aa-ae3c-bb236b6ccf8d"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_H"",
+                    ""type"": ""Button"",
+                    ""id"": ""84d6b268-65c1-4883-be31-c755742f9a3e"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_J"",
+                    ""type"": ""Button"",
+                    ""id"": ""9e4aed1d-0ff3-46b5-9472-52653e29942b"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_K"",
+                    ""type"": ""Button"",
+                    ""id"": ""9a3aa19c-02ed-44e7-a120-efa554da8ff3"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_L"",
+                    ""type"": ""Button"",
+                    ""id"": ""06d571a4-ce34-469b-a4e2-0cac56d66eac"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_Y"",
+                    ""type"": ""Button"",
+                    ""id"": ""6993707d-6275-46ae-aa16-ad6430bf9e30"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_X"",
+                    ""type"": ""Button"",
+                    ""id"": ""f50f6a7a-bf56-4c10-8612-af514cf1f1ef"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_C"",
+                    ""type"": ""Button"",
+                    ""id"": ""ed5bdc7a-92e3-4d3a-93db-5ba6c348ea3b"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_V"",
+                    ""type"": ""Button"",
+                    ""id"": ""9f7c499c-8438-4e89-bbaf-4d9cc639a602"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_B"",
+                    ""type"": ""Button"",
+                    ""id"": ""e876fef5-20be-4a71-9f39-01cf6e21b43a"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_N"",
+                    ""type"": ""Button"",
+                    ""id"": ""3a5dead1-51a1-47d8-ba88-a081e7eb229d"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Button_M"",
+                    ""type"": ""Button"",
+                    ""id"": ""9bda8a67-1431-41fe-82bf-c472ce964973"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -213,375 +330,287 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""978bfe49-cc26-4a3d-ab7b-7d7a29327403"",
-                    ""path"": ""<Gamepad>/leftStick"",
+                    ""id"": ""a2b0bfed-2151-4a7c-ac8f-60ffb94cbd94"",
+                    ""path"": ""<Keyboard>/q"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Move"",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_Q"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""WASD"",
-                    ""id"": ""00ca640b-d935-4593-8157-c05846ea39b3"",
-                    ""path"": ""Dpad"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""e2062cb9-1b15-46a2-838c-2f8d72a0bdd9"",
+                    ""name"": """",
+                    ""id"": ""135e0682-b057-4d30-849f-9043eb00ae6e"",
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""8180e8bd-4097-4f4e-ab88-4523101a6ce9"",
-                    ""path"": ""<Keyboard>/upArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""320bffee-a40b-4347-ac70-c210eb8bc73a"",
-                    ""path"": ""<Keyboard>/s"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""1c5327b5-f71c-4f60-99c7-4e737386f1d1"",
-                    ""path"": ""<Keyboard>/downArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""d2581a9b-1d11-4566-b27d-b92aff5fabbc"",
-                    ""path"": ""<Keyboard>/a"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""2e46982e-44cc-431b-9f0b-c11910bf467a"",
-                    ""path"": ""<Keyboard>/leftArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""fcfe95b8-67b9-4526-84b5-5d0bc98d6400"",
-                    ""path"": ""<Keyboard>/d"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""77bff152-3580-4b21-b6de-dcd0c7e41164"",
-                    ""path"": ""<Keyboard>/rightArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""143bb1cd-cc10-4eca-a2f0-a3664166fe91"",
-                    ""path"": ""<Gamepad>/buttonWest"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Button_Set1_1"",
+                    ""action"": ""Button_W"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""05f6913d-c316-48b2-a6bb-e225f14c7960"",
+                    ""id"": ""db876c82-9df5-46e8-88ad-0d18c77400ea"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_E"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e8e81fd2-0cbf-4231-ac97-ade14e127f5e"",
                     ""path"": ""<Keyboard>/r"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Button_Set1_1"",
+                    ""action"": ""Button_R"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""e06e5189-f233-4413-934c-aab889cf8df4"",
-                    ""path"": ""<Gamepad>/buttonNorth"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Button_Set1_2"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""ac66ad8a-23c8-4c08-b908-8bf73631e416"",
+                    ""id"": ""09c4c937-7469-42e5-bcef-67a8e332fd6d"",
                     ""path"": ""<Keyboard>/t"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Button_Set1_2"",
+                    ""action"": ""Button_T"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""8fdc335c-0a6f-4fac-bcfb-9b4c5cf54526"",
-                    ""path"": ""<Gamepad>/buttonEast"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Button_Set1_3"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""888d720d-e5ec-4ed0-b47d-4735ec7e6d42"",
-                    ""path"": ""<Keyboard>/f"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Button_Set1_3"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""5d3a1180-40c2-41c4-ba41-9a8c24edbae8"",
-                    ""path"": ""<Gamepad>/buttonSouth"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Button_Set1_4"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""11b13205-638c-4b34-8227-05fea156f9f5"",
-                    ""path"": ""<Keyboard>/g"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Button_Set1_4"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""692649b8-b0df-4e6b-affb-5c6e368a0617"",
-                    ""path"": ""<Gamepad>/dpad/left"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Button_Set2_1"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""e04cbd7c-822c-42a4-83ee-91ebd58cbfe7"",
+                    ""id"": ""adac65cc-5d6f-4a85-ad4e-a1f2439df6e4"",
                     ""path"": ""<Keyboard>/y"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Button_Set2_1"",
+                    ""action"": ""Button_Z"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""310ef4ae-3c88-4a02-889d-6e9ca51cf756"",
-                    ""path"": ""<Gamepad>/dpad/up"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Button_Set2_2"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""e9ea9e3d-2a27-4922-9021-1b2194adc421"",
+                    ""id"": ""2bb222d0-20fe-4c42-a1ce-06806438889f"",
                     ""path"": ""<Keyboard>/u"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Button_Set2_2"",
+                    ""action"": ""Button_U"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""245a5e89-60c6-4a91-8329-b49437595c35"",
-                    ""path"": ""<Gamepad>/dpad/right"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Button_Set2_3"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""1b2ab186-a94c-48d7-958a-ee18e9d4c7b5"",
-                    ""path"": ""<Keyboard>/h"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Button_Set2_3"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""cd855d4d-7b1c-4a15-a45a-8d90b346498d"",
-                    ""path"": ""<Gamepad>/dpad/down"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Button_Set2_4"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""8cb2bc97-0397-4fd9-87dd-28729e647a97"",
-                    ""path"": ""<Keyboard>/j"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Button_Set2_4"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""10d95074-546a-402c-95e8-8513d6cb36ce"",
-                    ""path"": ""<Gamepad>/leftShoulder"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Button_Set3_1"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""a75927e0-34d5-41bc-a59d-94950517574b"",
+                    ""id"": ""43c8a07b-e81a-4611-b110-e967b175b53a"",
                     ""path"": ""<Keyboard>/i"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Button_Set3_1"",
+                    ""action"": ""Button_I"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""b4dae1be-9f1d-433f-a62a-1efa2e708a12"",
-                    ""path"": ""<Gamepad>/leftTrigger"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Button_Set3_2"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""cec9fbfd-928d-4c41-80aa-b5c46c6a8027"",
+                    ""id"": ""25a64fe1-367d-4a65-99a8-a9c2a2f24292"",
                     ""path"": ""<Keyboard>/o"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Button_Set3_2"",
+                    ""action"": ""Button_O"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""91851c02-42be-435a-bf83-a3f1c8421db0"",
-                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""id"": ""cfb66246-cd87-4f87-b3ad-70c2384253d9"",
+                    ""path"": ""<Keyboard>/p"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Button_Set3_3"",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_P"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""6a3d7798-44c2-46fc-8fc7-92306028e274"",
+                    ""id"": ""6aa2fdec-fce6-48c7-82ce-be171da29903"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_A"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4f83303a-6140-4792-8b69-c983eb15d46f"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_S"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6a4abea0-803d-4867-be41-64266ec311e9"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_D"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8fcd464c-a130-418c-b9f9-6981a85a44c5"",
+                    ""path"": ""<Keyboard>/f"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_F"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c02496d6-f5c4-4b2d-9614-11c5769b31d9"",
+                    ""path"": ""<Keyboard>/g"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_G"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9a2f3c2a-30cc-45be-9d62-a1ecd739d770"",
+                    ""path"": ""<Keyboard>/h"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_H"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""34f174e4-d84d-4c32-a03c-a3b80beda00c"",
+                    ""path"": ""<Keyboard>/j"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_J"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""94b5b2ff-d07b-436c-a244-0a6f7de91c3a"",
                     ""path"": ""<Keyboard>/k"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Button_Set3_3"",
+                    ""action"": ""Button_K"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""6bc0655b-47fa-426a-9a0d-b3a130fd9e51"",
-                    ""path"": ""<Gamepad>/rightTrigger"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Button_Set3_4"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""bca8de32-b9a7-46a8-a42a-d0037d36158b"",
+                    ""id"": ""a70f9054-b555-4ba9-8a61-bab4a163c53a"",
                     ""path"": ""<Keyboard>/l"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Button_Set3_4"",
+                    ""action"": ""Button_L"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4d958d99-9df1-4345-986c-be6c1003b8a6"",
+                    ""path"": ""<Keyboard>/z"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_Y"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7ee08b2e-4178-42c9-ad24-2ce0a03dc724"",
+                    ""path"": ""<Keyboard>/x"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_X"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""834f4203-5584-41fa-93b6-8dfe4e7ea909"",
+                    ""path"": ""<Keyboard>/c"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_C"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2c9279e4-702e-4447-96d3-0ec55c1cc401"",
+                    ""path"": ""<Keyboard>/v"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_V"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6111c365-2d1c-4fa6-8ba5-2ec928e3e6ac"",
+                    ""path"": ""<Keyboard>/b"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_B"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""27de3ed5-4d6e-4959-b4bc-ee4b8888aefd"",
+                    ""path"": ""<Keyboard>/n"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_N"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0f36ec4a-b17c-4de0-9691-0b2a1935e20d"",
+                    ""path"": ""<Keyboard>/m"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Button_M"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1102,6 +1131,505 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Player_ControllerAlt"",
+            ""id"": ""df70fa95-8a34-4494-b137-73ab6b9c7d37"",
+            ""actions"": [
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""351f2ccd-1f9f-44bf-9bec-d62ac5c5f408"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""B_Set1_1"",
+                    ""type"": ""Button"",
+                    ""id"": ""6c2ab1b8-8984-453a-af3d-a3c78ae1679a"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""B_Set1_2"",
+                    ""type"": ""Button"",
+                    ""id"": ""dfc72718-4085-4293-9407-83f0038f7c43"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""B_Set1_3"",
+                    ""type"": ""Button"",
+                    ""id"": ""3d1b6f2d-f39b-4916-b396-f8f62870765d"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""B_Set1_4"",
+                    ""type"": ""Button"",
+                    ""id"": ""11969d6d-ea65-4610-ac16-e920bfd0609a"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""B_Set2_1"",
+                    ""type"": ""Button"",
+                    ""id"": ""654f66ff-479f-4d95-b16b-add986d50c83"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""B_Set2_2"",
+                    ""type"": ""Button"",
+                    ""id"": ""808a64f4-0f39-4c9a-9b81-a9e7ef117966"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""B_Set2_3"",
+                    ""type"": ""Button"",
+                    ""id"": ""82e3f53c-54c3-4884-a6cb-3f65e3b85acb"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""B_Set2_4"",
+                    ""type"": ""Button"",
+                    ""id"": ""5a462173-037a-4ce7-a39e-2c6881ad8e01"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""B_Set3_1"",
+                    ""type"": ""Button"",
+                    ""id"": ""0aa34e73-2df9-4666-b450-209569ea5f77"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""B_Set3_2"",
+                    ""type"": ""Button"",
+                    ""id"": ""790e8a5c-17e3-4f3b-891c-c8512035d179"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""B_Set3_3"",
+                    ""type"": ""Button"",
+                    ""id"": ""3740b0f3-c5bc-40f4-922b-130a359b9735"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""B_Set3_4"",
+                    ""type"": ""Button"",
+                    ""id"": ""74672a81-0458-478f-b713-9ef59ab84220"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""978bfe49-cc26-4a3d-ab7b-7d7a29327403"",
+                    ""path"": ""<Gamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""WASD"",
+                    ""id"": ""00ca640b-d935-4593-8157-c05846ea39b3"",
+                    ""path"": ""Dpad"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""e2062cb9-1b15-46a2-838c-2f8d72a0bdd9"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""8180e8bd-4097-4f4e-ab88-4523101a6ce9"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""320bffee-a40b-4347-ac70-c210eb8bc73a"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""1c5327b5-f71c-4f60-99c7-4e737386f1d1"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""d2581a9b-1d11-4566-b27d-b92aff5fabbc"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""2e46982e-44cc-431b-9f0b-c11910bf467a"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""fcfe95b8-67b9-4526-84b5-5d0bc98d6400"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""77bff152-3580-4b21-b6de-dcd0c7e41164"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""143bb1cd-cc10-4eca-a2f0-a3664166fe91"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""B_Set1_1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""05f6913d-c316-48b2-a6bb-e225f14c7960"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""B_Set1_1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e06e5189-f233-4413-934c-aab889cf8df4"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""B_Set1_2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ac66ad8a-23c8-4c08-b908-8bf73631e416"",
+                    ""path"": ""<Keyboard>/t"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""B_Set1_2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8fdc335c-0a6f-4fac-bcfb-9b4c5cf54526"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""B_Set1_3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""888d720d-e5ec-4ed0-b47d-4735ec7e6d42"",
+                    ""path"": ""<Keyboard>/f"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""B_Set1_3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5d3a1180-40c2-41c4-ba41-9a8c24edbae8"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""B_Set1_4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""11b13205-638c-4b34-8227-05fea156f9f5"",
+                    ""path"": ""<Keyboard>/g"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""B_Set1_4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""692649b8-b0df-4e6b-affb-5c6e368a0617"",
+                    ""path"": ""<Gamepad>/dpad/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""B_Set2_1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e04cbd7c-822c-42a4-83ee-91ebd58cbfe7"",
+                    ""path"": ""<Keyboard>/y"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""B_Set2_1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""310ef4ae-3c88-4a02-889d-6e9ca51cf756"",
+                    ""path"": ""<Gamepad>/dpad/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""B_Set2_2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e9ea9e3d-2a27-4922-9021-1b2194adc421"",
+                    ""path"": ""<Keyboard>/u"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""B_Set2_2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""245a5e89-60c6-4a91-8329-b49437595c35"",
+                    ""path"": ""<Gamepad>/dpad/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""B_Set2_3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1b2ab186-a94c-48d7-958a-ee18e9d4c7b5"",
+                    ""path"": ""<Keyboard>/h"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""B_Set2_3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cd855d4d-7b1c-4a15-a45a-8d90b346498d"",
+                    ""path"": ""<Gamepad>/dpad/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""B_Set2_4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8cb2bc97-0397-4fd9-87dd-28729e647a97"",
+                    ""path"": ""<Keyboard>/j"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""B_Set2_4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""10d95074-546a-402c-95e8-8513d6cb36ce"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""B_Set3_1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a75927e0-34d5-41bc-a59d-94950517574b"",
+                    ""path"": ""<Keyboard>/i"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""B_Set3_1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b4dae1be-9f1d-433f-a62a-1efa2e708a12"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""B_Set3_2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cec9fbfd-928d-4c41-80aa-b5c46c6a8027"",
+                    ""path"": ""<Keyboard>/o"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""B_Set3_2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""91851c02-42be-435a-bf83-a3f1c8421db0"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""B_Set3_3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6a3d7798-44c2-46fc-8fc7-92306028e274"",
+                    ""path"": ""<Keyboard>/k"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""B_Set3_3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6bc0655b-47fa-426a-9a0d-b3a130fd9e51"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""B_Set3_4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bca8de32-b9a7-46a8-a42a-d0037d36158b"",
+                    ""path"": ""<Keyboard>/l"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""B_Set3_4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -1169,19 +1697,32 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
 }");
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
-        m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
-        m_Player_Button_Set1_1 = m_Player.FindAction("Button_Set1_1", throwIfNotFound: true);
-        m_Player_Button_Set1_2 = m_Player.FindAction("Button_Set1_2", throwIfNotFound: true);
-        m_Player_Button_Set1_3 = m_Player.FindAction("Button_Set1_3", throwIfNotFound: true);
-        m_Player_Button_Set1_4 = m_Player.FindAction("Button_Set1_4", throwIfNotFound: true);
-        m_Player_Button_Set2_1 = m_Player.FindAction("Button_Set2_1", throwIfNotFound: true);
-        m_Player_Button_Set2_2 = m_Player.FindAction("Button_Set2_2", throwIfNotFound: true);
-        m_Player_Button_Set2_3 = m_Player.FindAction("Button_Set2_3", throwIfNotFound: true);
-        m_Player_Button_Set2_4 = m_Player.FindAction("Button_Set2_4", throwIfNotFound: true);
-        m_Player_Button_Set3_1 = m_Player.FindAction("Button_Set3_1", throwIfNotFound: true);
-        m_Player_Button_Set3_2 = m_Player.FindAction("Button_Set3_2", throwIfNotFound: true);
-        m_Player_Button_Set3_3 = m_Player.FindAction("Button_Set3_3", throwIfNotFound: true);
-        m_Player_Button_Set3_4 = m_Player.FindAction("Button_Set3_4", throwIfNotFound: true);
+        m_Player_Button_Q = m_Player.FindAction("Button_Q", throwIfNotFound: true);
+        m_Player_Button_W = m_Player.FindAction("Button_W", throwIfNotFound: true);
+        m_Player_Button_E = m_Player.FindAction("Button_E", throwIfNotFound: true);
+        m_Player_Button_R = m_Player.FindAction("Button_R", throwIfNotFound: true);
+        m_Player_Button_T = m_Player.FindAction("Button_T", throwIfNotFound: true);
+        m_Player_Button_Z = m_Player.FindAction("Button_Z", throwIfNotFound: true);
+        m_Player_Button_U = m_Player.FindAction("Button_U", throwIfNotFound: true);
+        m_Player_Button_I = m_Player.FindAction("Button_I", throwIfNotFound: true);
+        m_Player_Button_O = m_Player.FindAction("Button_O", throwIfNotFound: true);
+        m_Player_Button_P = m_Player.FindAction("Button_P", throwIfNotFound: true);
+        m_Player_Button_A = m_Player.FindAction("Button_A", throwIfNotFound: true);
+        m_Player_Button_S = m_Player.FindAction("Button_S", throwIfNotFound: true);
+        m_Player_Button_D = m_Player.FindAction("Button_D", throwIfNotFound: true);
+        m_Player_Button_F = m_Player.FindAction("Button_F", throwIfNotFound: true);
+        m_Player_Button_G = m_Player.FindAction("Button_G", throwIfNotFound: true);
+        m_Player_Button_H = m_Player.FindAction("Button_H", throwIfNotFound: true);
+        m_Player_Button_J = m_Player.FindAction("Button_J", throwIfNotFound: true);
+        m_Player_Button_K = m_Player.FindAction("Button_K", throwIfNotFound: true);
+        m_Player_Button_L = m_Player.FindAction("Button_L", throwIfNotFound: true);
+        m_Player_Button_Y = m_Player.FindAction("Button_Y", throwIfNotFound: true);
+        m_Player_Button_X = m_Player.FindAction("Button_X", throwIfNotFound: true);
+        m_Player_Button_C = m_Player.FindAction("Button_C", throwIfNotFound: true);
+        m_Player_Button_V = m_Player.FindAction("Button_V", throwIfNotFound: true);
+        m_Player_Button_B = m_Player.FindAction("Button_B", throwIfNotFound: true);
+        m_Player_Button_N = m_Player.FindAction("Button_N", throwIfNotFound: true);
+        m_Player_Button_M = m_Player.FindAction("Button_M", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1194,12 +1735,28 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_UI_ScrollWheel = m_UI.FindAction("ScrollWheel", throwIfNotFound: true);
         m_UI_TrackedDevicePosition = m_UI.FindAction("TrackedDevicePosition", throwIfNotFound: true);
         m_UI_TrackedDeviceOrientation = m_UI.FindAction("TrackedDeviceOrientation", throwIfNotFound: true);
+        // Player_ControllerAlt
+        m_Player_ControllerAlt = asset.FindActionMap("Player_ControllerAlt", throwIfNotFound: true);
+        m_Player_ControllerAlt_Move = m_Player_ControllerAlt.FindAction("Move", throwIfNotFound: true);
+        m_Player_ControllerAlt_B_Set1_1 = m_Player_ControllerAlt.FindAction("B_Set1_1", throwIfNotFound: true);
+        m_Player_ControllerAlt_B_Set1_2 = m_Player_ControllerAlt.FindAction("B_Set1_2", throwIfNotFound: true);
+        m_Player_ControllerAlt_B_Set1_3 = m_Player_ControllerAlt.FindAction("B_Set1_3", throwIfNotFound: true);
+        m_Player_ControllerAlt_B_Set1_4 = m_Player_ControllerAlt.FindAction("B_Set1_4", throwIfNotFound: true);
+        m_Player_ControllerAlt_B_Set2_1 = m_Player_ControllerAlt.FindAction("B_Set2_1", throwIfNotFound: true);
+        m_Player_ControllerAlt_B_Set2_2 = m_Player_ControllerAlt.FindAction("B_Set2_2", throwIfNotFound: true);
+        m_Player_ControllerAlt_B_Set2_3 = m_Player_ControllerAlt.FindAction("B_Set2_3", throwIfNotFound: true);
+        m_Player_ControllerAlt_B_Set2_4 = m_Player_ControllerAlt.FindAction("B_Set2_4", throwIfNotFound: true);
+        m_Player_ControllerAlt_B_Set3_1 = m_Player_ControllerAlt.FindAction("B_Set3_1", throwIfNotFound: true);
+        m_Player_ControllerAlt_B_Set3_2 = m_Player_ControllerAlt.FindAction("B_Set3_2", throwIfNotFound: true);
+        m_Player_ControllerAlt_B_Set3_3 = m_Player_ControllerAlt.FindAction("B_Set3_3", throwIfNotFound: true);
+        m_Player_ControllerAlt_B_Set3_4 = m_Player_ControllerAlt.FindAction("B_Set3_4", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
     {
         UnityEngine.Debug.Assert(!m_Player.enabled, "This will cause a leak and performance issues, InputSystem_Actions.Player.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_UI.enabled, "This will cause a leak and performance issues, InputSystem_Actions.UI.Disable() has not been called.");
+        UnityEngine.Debug.Assert(!m_Player_ControllerAlt.enabled, "This will cause a leak and performance issues, InputSystem_Actions.Player_ControllerAlt.Disable() has not been called.");
     }
 
     /// <summary>
@@ -1275,19 +1832,32 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     // Player
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
-    private readonly InputAction m_Player_Move;
-    private readonly InputAction m_Player_Button_Set1_1;
-    private readonly InputAction m_Player_Button_Set1_2;
-    private readonly InputAction m_Player_Button_Set1_3;
-    private readonly InputAction m_Player_Button_Set1_4;
-    private readonly InputAction m_Player_Button_Set2_1;
-    private readonly InputAction m_Player_Button_Set2_2;
-    private readonly InputAction m_Player_Button_Set2_3;
-    private readonly InputAction m_Player_Button_Set2_4;
-    private readonly InputAction m_Player_Button_Set3_1;
-    private readonly InputAction m_Player_Button_Set3_2;
-    private readonly InputAction m_Player_Button_Set3_3;
-    private readonly InputAction m_Player_Button_Set3_4;
+    private readonly InputAction m_Player_Button_Q;
+    private readonly InputAction m_Player_Button_W;
+    private readonly InputAction m_Player_Button_E;
+    private readonly InputAction m_Player_Button_R;
+    private readonly InputAction m_Player_Button_T;
+    private readonly InputAction m_Player_Button_Z;
+    private readonly InputAction m_Player_Button_U;
+    private readonly InputAction m_Player_Button_I;
+    private readonly InputAction m_Player_Button_O;
+    private readonly InputAction m_Player_Button_P;
+    private readonly InputAction m_Player_Button_A;
+    private readonly InputAction m_Player_Button_S;
+    private readonly InputAction m_Player_Button_D;
+    private readonly InputAction m_Player_Button_F;
+    private readonly InputAction m_Player_Button_G;
+    private readonly InputAction m_Player_Button_H;
+    private readonly InputAction m_Player_Button_J;
+    private readonly InputAction m_Player_Button_K;
+    private readonly InputAction m_Player_Button_L;
+    private readonly InputAction m_Player_Button_Y;
+    private readonly InputAction m_Player_Button_X;
+    private readonly InputAction m_Player_Button_C;
+    private readonly InputAction m_Player_Button_V;
+    private readonly InputAction m_Player_Button_B;
+    private readonly InputAction m_Player_Button_N;
+    private readonly InputAction m_Player_Button_M;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -1300,57 +1870,109 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// </summary>
         public PlayerActions(@InputSystem_Actions wrapper) { m_Wrapper = wrapper; }
         /// <summary>
-        /// Provides access to the underlying input action "Player/Move".
+        /// Provides access to the underlying input action "Player/Button_Q".
         /// </summary>
-        public InputAction @Move => m_Wrapper.m_Player_Move;
+        public InputAction @Button_Q => m_Wrapper.m_Player_Button_Q;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Button_Set1_1".
+        /// Provides access to the underlying input action "Player/Button_W".
         /// </summary>
-        public InputAction @Button_Set1_1 => m_Wrapper.m_Player_Button_Set1_1;
+        public InputAction @Button_W => m_Wrapper.m_Player_Button_W;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Button_Set1_2".
+        /// Provides access to the underlying input action "Player/Button_E".
         /// </summary>
-        public InputAction @Button_Set1_2 => m_Wrapper.m_Player_Button_Set1_2;
+        public InputAction @Button_E => m_Wrapper.m_Player_Button_E;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Button_Set1_3".
+        /// Provides access to the underlying input action "Player/Button_R".
         /// </summary>
-        public InputAction @Button_Set1_3 => m_Wrapper.m_Player_Button_Set1_3;
+        public InputAction @Button_R => m_Wrapper.m_Player_Button_R;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Button_Set1_4".
+        /// Provides access to the underlying input action "Player/Button_T".
         /// </summary>
-        public InputAction @Button_Set1_4 => m_Wrapper.m_Player_Button_Set1_4;
+        public InputAction @Button_T => m_Wrapper.m_Player_Button_T;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Button_Set2_1".
+        /// Provides access to the underlying input action "Player/Button_Z".
         /// </summary>
-        public InputAction @Button_Set2_1 => m_Wrapper.m_Player_Button_Set2_1;
+        public InputAction @Button_Z => m_Wrapper.m_Player_Button_Z;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Button_Set2_2".
+        /// Provides access to the underlying input action "Player/Button_U".
         /// </summary>
-        public InputAction @Button_Set2_2 => m_Wrapper.m_Player_Button_Set2_2;
+        public InputAction @Button_U => m_Wrapper.m_Player_Button_U;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Button_Set2_3".
+        /// Provides access to the underlying input action "Player/Button_I".
         /// </summary>
-        public InputAction @Button_Set2_3 => m_Wrapper.m_Player_Button_Set2_3;
+        public InputAction @Button_I => m_Wrapper.m_Player_Button_I;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Button_Set2_4".
+        /// Provides access to the underlying input action "Player/Button_O".
         /// </summary>
-        public InputAction @Button_Set2_4 => m_Wrapper.m_Player_Button_Set2_4;
+        public InputAction @Button_O => m_Wrapper.m_Player_Button_O;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Button_Set3_1".
+        /// Provides access to the underlying input action "Player/Button_P".
         /// </summary>
-        public InputAction @Button_Set3_1 => m_Wrapper.m_Player_Button_Set3_1;
+        public InputAction @Button_P => m_Wrapper.m_Player_Button_P;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Button_Set3_2".
+        /// Provides access to the underlying input action "Player/Button_A".
         /// </summary>
-        public InputAction @Button_Set3_2 => m_Wrapper.m_Player_Button_Set3_2;
+        public InputAction @Button_A => m_Wrapper.m_Player_Button_A;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Button_Set3_3".
+        /// Provides access to the underlying input action "Player/Button_S".
         /// </summary>
-        public InputAction @Button_Set3_3 => m_Wrapper.m_Player_Button_Set3_3;
+        public InputAction @Button_S => m_Wrapper.m_Player_Button_S;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Button_Set3_4".
+        /// Provides access to the underlying input action "Player/Button_D".
         /// </summary>
-        public InputAction @Button_Set3_4 => m_Wrapper.m_Player_Button_Set3_4;
+        public InputAction @Button_D => m_Wrapper.m_Player_Button_D;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Button_F".
+        /// </summary>
+        public InputAction @Button_F => m_Wrapper.m_Player_Button_F;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Button_G".
+        /// </summary>
+        public InputAction @Button_G => m_Wrapper.m_Player_Button_G;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Button_H".
+        /// </summary>
+        public InputAction @Button_H => m_Wrapper.m_Player_Button_H;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Button_J".
+        /// </summary>
+        public InputAction @Button_J => m_Wrapper.m_Player_Button_J;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Button_K".
+        /// </summary>
+        public InputAction @Button_K => m_Wrapper.m_Player_Button_K;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Button_L".
+        /// </summary>
+        public InputAction @Button_L => m_Wrapper.m_Player_Button_L;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Button_Y".
+        /// </summary>
+        public InputAction @Button_Y => m_Wrapper.m_Player_Button_Y;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Button_X".
+        /// </summary>
+        public InputAction @Button_X => m_Wrapper.m_Player_Button_X;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Button_C".
+        /// </summary>
+        public InputAction @Button_C => m_Wrapper.m_Player_Button_C;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Button_V".
+        /// </summary>
+        public InputAction @Button_V => m_Wrapper.m_Player_Button_V;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Button_B".
+        /// </summary>
+        public InputAction @Button_B => m_Wrapper.m_Player_Button_B;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Button_N".
+        /// </summary>
+        public InputAction @Button_N => m_Wrapper.m_Player_Button_N;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Button_M".
+        /// </summary>
+        public InputAction @Button_M => m_Wrapper.m_Player_Button_M;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1377,45 +1999,84 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_PlayerActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_PlayerActionsCallbackInterfaces.Add(instance);
-            @Move.started += instance.OnMove;
-            @Move.performed += instance.OnMove;
-            @Move.canceled += instance.OnMove;
-            @Button_Set1_1.started += instance.OnButton_Set1_1;
-            @Button_Set1_1.performed += instance.OnButton_Set1_1;
-            @Button_Set1_1.canceled += instance.OnButton_Set1_1;
-            @Button_Set1_2.started += instance.OnButton_Set1_2;
-            @Button_Set1_2.performed += instance.OnButton_Set1_2;
-            @Button_Set1_2.canceled += instance.OnButton_Set1_2;
-            @Button_Set1_3.started += instance.OnButton_Set1_3;
-            @Button_Set1_3.performed += instance.OnButton_Set1_3;
-            @Button_Set1_3.canceled += instance.OnButton_Set1_3;
-            @Button_Set1_4.started += instance.OnButton_Set1_4;
-            @Button_Set1_4.performed += instance.OnButton_Set1_4;
-            @Button_Set1_4.canceled += instance.OnButton_Set1_4;
-            @Button_Set2_1.started += instance.OnButton_Set2_1;
-            @Button_Set2_1.performed += instance.OnButton_Set2_1;
-            @Button_Set2_1.canceled += instance.OnButton_Set2_1;
-            @Button_Set2_2.started += instance.OnButton_Set2_2;
-            @Button_Set2_2.performed += instance.OnButton_Set2_2;
-            @Button_Set2_2.canceled += instance.OnButton_Set2_2;
-            @Button_Set2_3.started += instance.OnButton_Set2_3;
-            @Button_Set2_3.performed += instance.OnButton_Set2_3;
-            @Button_Set2_3.canceled += instance.OnButton_Set2_3;
-            @Button_Set2_4.started += instance.OnButton_Set2_4;
-            @Button_Set2_4.performed += instance.OnButton_Set2_4;
-            @Button_Set2_4.canceled += instance.OnButton_Set2_4;
-            @Button_Set3_1.started += instance.OnButton_Set3_1;
-            @Button_Set3_1.performed += instance.OnButton_Set3_1;
-            @Button_Set3_1.canceled += instance.OnButton_Set3_1;
-            @Button_Set3_2.started += instance.OnButton_Set3_2;
-            @Button_Set3_2.performed += instance.OnButton_Set3_2;
-            @Button_Set3_2.canceled += instance.OnButton_Set3_2;
-            @Button_Set3_3.started += instance.OnButton_Set3_3;
-            @Button_Set3_3.performed += instance.OnButton_Set3_3;
-            @Button_Set3_3.canceled += instance.OnButton_Set3_3;
-            @Button_Set3_4.started += instance.OnButton_Set3_4;
-            @Button_Set3_4.performed += instance.OnButton_Set3_4;
-            @Button_Set3_4.canceled += instance.OnButton_Set3_4;
+            @Button_Q.started += instance.OnButton_Q;
+            @Button_Q.performed += instance.OnButton_Q;
+            @Button_Q.canceled += instance.OnButton_Q;
+            @Button_W.started += instance.OnButton_W;
+            @Button_W.performed += instance.OnButton_W;
+            @Button_W.canceled += instance.OnButton_W;
+            @Button_E.started += instance.OnButton_E;
+            @Button_E.performed += instance.OnButton_E;
+            @Button_E.canceled += instance.OnButton_E;
+            @Button_R.started += instance.OnButton_R;
+            @Button_R.performed += instance.OnButton_R;
+            @Button_R.canceled += instance.OnButton_R;
+            @Button_T.started += instance.OnButton_T;
+            @Button_T.performed += instance.OnButton_T;
+            @Button_T.canceled += instance.OnButton_T;
+            @Button_Z.started += instance.OnButton_Z;
+            @Button_Z.performed += instance.OnButton_Z;
+            @Button_Z.canceled += instance.OnButton_Z;
+            @Button_U.started += instance.OnButton_U;
+            @Button_U.performed += instance.OnButton_U;
+            @Button_U.canceled += instance.OnButton_U;
+            @Button_I.started += instance.OnButton_I;
+            @Button_I.performed += instance.OnButton_I;
+            @Button_I.canceled += instance.OnButton_I;
+            @Button_O.started += instance.OnButton_O;
+            @Button_O.performed += instance.OnButton_O;
+            @Button_O.canceled += instance.OnButton_O;
+            @Button_P.started += instance.OnButton_P;
+            @Button_P.performed += instance.OnButton_P;
+            @Button_P.canceled += instance.OnButton_P;
+            @Button_A.started += instance.OnButton_A;
+            @Button_A.performed += instance.OnButton_A;
+            @Button_A.canceled += instance.OnButton_A;
+            @Button_S.started += instance.OnButton_S;
+            @Button_S.performed += instance.OnButton_S;
+            @Button_S.canceled += instance.OnButton_S;
+            @Button_D.started += instance.OnButton_D;
+            @Button_D.performed += instance.OnButton_D;
+            @Button_D.canceled += instance.OnButton_D;
+            @Button_F.started += instance.OnButton_F;
+            @Button_F.performed += instance.OnButton_F;
+            @Button_F.canceled += instance.OnButton_F;
+            @Button_G.started += instance.OnButton_G;
+            @Button_G.performed += instance.OnButton_G;
+            @Button_G.canceled += instance.OnButton_G;
+            @Button_H.started += instance.OnButton_H;
+            @Button_H.performed += instance.OnButton_H;
+            @Button_H.canceled += instance.OnButton_H;
+            @Button_J.started += instance.OnButton_J;
+            @Button_J.performed += instance.OnButton_J;
+            @Button_J.canceled += instance.OnButton_J;
+            @Button_K.started += instance.OnButton_K;
+            @Button_K.performed += instance.OnButton_K;
+            @Button_K.canceled += instance.OnButton_K;
+            @Button_L.started += instance.OnButton_L;
+            @Button_L.performed += instance.OnButton_L;
+            @Button_L.canceled += instance.OnButton_L;
+            @Button_Y.started += instance.OnButton_Y;
+            @Button_Y.performed += instance.OnButton_Y;
+            @Button_Y.canceled += instance.OnButton_Y;
+            @Button_X.started += instance.OnButton_X;
+            @Button_X.performed += instance.OnButton_X;
+            @Button_X.canceled += instance.OnButton_X;
+            @Button_C.started += instance.OnButton_C;
+            @Button_C.performed += instance.OnButton_C;
+            @Button_C.canceled += instance.OnButton_C;
+            @Button_V.started += instance.OnButton_V;
+            @Button_V.performed += instance.OnButton_V;
+            @Button_V.canceled += instance.OnButton_V;
+            @Button_B.started += instance.OnButton_B;
+            @Button_B.performed += instance.OnButton_B;
+            @Button_B.canceled += instance.OnButton_B;
+            @Button_N.started += instance.OnButton_N;
+            @Button_N.performed += instance.OnButton_N;
+            @Button_N.canceled += instance.OnButton_N;
+            @Button_M.started += instance.OnButton_M;
+            @Button_M.performed += instance.OnButton_M;
+            @Button_M.canceled += instance.OnButton_M;
         }
 
         /// <summary>
@@ -1427,45 +2088,84 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="PlayerActions" />
         private void UnregisterCallbacks(IPlayerActions instance)
         {
-            @Move.started -= instance.OnMove;
-            @Move.performed -= instance.OnMove;
-            @Move.canceled -= instance.OnMove;
-            @Button_Set1_1.started -= instance.OnButton_Set1_1;
-            @Button_Set1_1.performed -= instance.OnButton_Set1_1;
-            @Button_Set1_1.canceled -= instance.OnButton_Set1_1;
-            @Button_Set1_2.started -= instance.OnButton_Set1_2;
-            @Button_Set1_2.performed -= instance.OnButton_Set1_2;
-            @Button_Set1_2.canceled -= instance.OnButton_Set1_2;
-            @Button_Set1_3.started -= instance.OnButton_Set1_3;
-            @Button_Set1_3.performed -= instance.OnButton_Set1_3;
-            @Button_Set1_3.canceled -= instance.OnButton_Set1_3;
-            @Button_Set1_4.started -= instance.OnButton_Set1_4;
-            @Button_Set1_4.performed -= instance.OnButton_Set1_4;
-            @Button_Set1_4.canceled -= instance.OnButton_Set1_4;
-            @Button_Set2_1.started -= instance.OnButton_Set2_1;
-            @Button_Set2_1.performed -= instance.OnButton_Set2_1;
-            @Button_Set2_1.canceled -= instance.OnButton_Set2_1;
-            @Button_Set2_2.started -= instance.OnButton_Set2_2;
-            @Button_Set2_2.performed -= instance.OnButton_Set2_2;
-            @Button_Set2_2.canceled -= instance.OnButton_Set2_2;
-            @Button_Set2_3.started -= instance.OnButton_Set2_3;
-            @Button_Set2_3.performed -= instance.OnButton_Set2_3;
-            @Button_Set2_3.canceled -= instance.OnButton_Set2_3;
-            @Button_Set2_4.started -= instance.OnButton_Set2_4;
-            @Button_Set2_4.performed -= instance.OnButton_Set2_4;
-            @Button_Set2_4.canceled -= instance.OnButton_Set2_4;
-            @Button_Set3_1.started -= instance.OnButton_Set3_1;
-            @Button_Set3_1.performed -= instance.OnButton_Set3_1;
-            @Button_Set3_1.canceled -= instance.OnButton_Set3_1;
-            @Button_Set3_2.started -= instance.OnButton_Set3_2;
-            @Button_Set3_2.performed -= instance.OnButton_Set3_2;
-            @Button_Set3_2.canceled -= instance.OnButton_Set3_2;
-            @Button_Set3_3.started -= instance.OnButton_Set3_3;
-            @Button_Set3_3.performed -= instance.OnButton_Set3_3;
-            @Button_Set3_3.canceled -= instance.OnButton_Set3_3;
-            @Button_Set3_4.started -= instance.OnButton_Set3_4;
-            @Button_Set3_4.performed -= instance.OnButton_Set3_4;
-            @Button_Set3_4.canceled -= instance.OnButton_Set3_4;
+            @Button_Q.started -= instance.OnButton_Q;
+            @Button_Q.performed -= instance.OnButton_Q;
+            @Button_Q.canceled -= instance.OnButton_Q;
+            @Button_W.started -= instance.OnButton_W;
+            @Button_W.performed -= instance.OnButton_W;
+            @Button_W.canceled -= instance.OnButton_W;
+            @Button_E.started -= instance.OnButton_E;
+            @Button_E.performed -= instance.OnButton_E;
+            @Button_E.canceled -= instance.OnButton_E;
+            @Button_R.started -= instance.OnButton_R;
+            @Button_R.performed -= instance.OnButton_R;
+            @Button_R.canceled -= instance.OnButton_R;
+            @Button_T.started -= instance.OnButton_T;
+            @Button_T.performed -= instance.OnButton_T;
+            @Button_T.canceled -= instance.OnButton_T;
+            @Button_Z.started -= instance.OnButton_Z;
+            @Button_Z.performed -= instance.OnButton_Z;
+            @Button_Z.canceled -= instance.OnButton_Z;
+            @Button_U.started -= instance.OnButton_U;
+            @Button_U.performed -= instance.OnButton_U;
+            @Button_U.canceled -= instance.OnButton_U;
+            @Button_I.started -= instance.OnButton_I;
+            @Button_I.performed -= instance.OnButton_I;
+            @Button_I.canceled -= instance.OnButton_I;
+            @Button_O.started -= instance.OnButton_O;
+            @Button_O.performed -= instance.OnButton_O;
+            @Button_O.canceled -= instance.OnButton_O;
+            @Button_P.started -= instance.OnButton_P;
+            @Button_P.performed -= instance.OnButton_P;
+            @Button_P.canceled -= instance.OnButton_P;
+            @Button_A.started -= instance.OnButton_A;
+            @Button_A.performed -= instance.OnButton_A;
+            @Button_A.canceled -= instance.OnButton_A;
+            @Button_S.started -= instance.OnButton_S;
+            @Button_S.performed -= instance.OnButton_S;
+            @Button_S.canceled -= instance.OnButton_S;
+            @Button_D.started -= instance.OnButton_D;
+            @Button_D.performed -= instance.OnButton_D;
+            @Button_D.canceled -= instance.OnButton_D;
+            @Button_F.started -= instance.OnButton_F;
+            @Button_F.performed -= instance.OnButton_F;
+            @Button_F.canceled -= instance.OnButton_F;
+            @Button_G.started -= instance.OnButton_G;
+            @Button_G.performed -= instance.OnButton_G;
+            @Button_G.canceled -= instance.OnButton_G;
+            @Button_H.started -= instance.OnButton_H;
+            @Button_H.performed -= instance.OnButton_H;
+            @Button_H.canceled -= instance.OnButton_H;
+            @Button_J.started -= instance.OnButton_J;
+            @Button_J.performed -= instance.OnButton_J;
+            @Button_J.canceled -= instance.OnButton_J;
+            @Button_K.started -= instance.OnButton_K;
+            @Button_K.performed -= instance.OnButton_K;
+            @Button_K.canceled -= instance.OnButton_K;
+            @Button_L.started -= instance.OnButton_L;
+            @Button_L.performed -= instance.OnButton_L;
+            @Button_L.canceled -= instance.OnButton_L;
+            @Button_Y.started -= instance.OnButton_Y;
+            @Button_Y.performed -= instance.OnButton_Y;
+            @Button_Y.canceled -= instance.OnButton_Y;
+            @Button_X.started -= instance.OnButton_X;
+            @Button_X.performed -= instance.OnButton_X;
+            @Button_X.canceled -= instance.OnButton_X;
+            @Button_C.started -= instance.OnButton_C;
+            @Button_C.performed -= instance.OnButton_C;
+            @Button_C.canceled -= instance.OnButton_C;
+            @Button_V.started -= instance.OnButton_V;
+            @Button_V.performed -= instance.OnButton_V;
+            @Button_V.canceled -= instance.OnButton_V;
+            @Button_B.started -= instance.OnButton_B;
+            @Button_B.performed -= instance.OnButton_B;
+            @Button_B.canceled -= instance.OnButton_B;
+            @Button_N.started -= instance.OnButton_N;
+            @Button_N.performed -= instance.OnButton_N;
+            @Button_N.canceled -= instance.OnButton_N;
+            @Button_M.started -= instance.OnButton_M;
+            @Button_M.performed -= instance.OnButton_M;
+            @Button_M.canceled -= instance.OnButton_M;
         }
 
         /// <summary>
@@ -1694,6 +2394,234 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     /// Provides a new <see cref="UIActions" /> instance referencing this action map.
     /// </summary>
     public UIActions @UI => new UIActions(this);
+
+    // Player_ControllerAlt
+    private readonly InputActionMap m_Player_ControllerAlt;
+    private List<IPlayer_ControllerAltActions> m_Player_ControllerAltActionsCallbackInterfaces = new List<IPlayer_ControllerAltActions>();
+    private readonly InputAction m_Player_ControllerAlt_Move;
+    private readonly InputAction m_Player_ControllerAlt_B_Set1_1;
+    private readonly InputAction m_Player_ControllerAlt_B_Set1_2;
+    private readonly InputAction m_Player_ControllerAlt_B_Set1_3;
+    private readonly InputAction m_Player_ControllerAlt_B_Set1_4;
+    private readonly InputAction m_Player_ControllerAlt_B_Set2_1;
+    private readonly InputAction m_Player_ControllerAlt_B_Set2_2;
+    private readonly InputAction m_Player_ControllerAlt_B_Set2_3;
+    private readonly InputAction m_Player_ControllerAlt_B_Set2_4;
+    private readonly InputAction m_Player_ControllerAlt_B_Set3_1;
+    private readonly InputAction m_Player_ControllerAlt_B_Set3_2;
+    private readonly InputAction m_Player_ControllerAlt_B_Set3_3;
+    private readonly InputAction m_Player_ControllerAlt_B_Set3_4;
+    /// <summary>
+    /// Provides access to input actions defined in input action map "Player_ControllerAlt".
+    /// </summary>
+    public struct Player_ControllerAltActions
+    {
+        private @InputSystem_Actions m_Wrapper;
+
+        /// <summary>
+        /// Construct a new instance of the input action map wrapper class.
+        /// </summary>
+        public Player_ControllerAltActions(@InputSystem_Actions wrapper) { m_Wrapper = wrapper; }
+        /// <summary>
+        /// Provides access to the underlying input action "Player_ControllerAlt/Move".
+        /// </summary>
+        public InputAction @Move => m_Wrapper.m_Player_ControllerAlt_Move;
+        /// <summary>
+        /// Provides access to the underlying input action "Player_ControllerAlt/B_Set1_1".
+        /// </summary>
+        public InputAction @B_Set1_1 => m_Wrapper.m_Player_ControllerAlt_B_Set1_1;
+        /// <summary>
+        /// Provides access to the underlying input action "Player_ControllerAlt/B_Set1_2".
+        /// </summary>
+        public InputAction @B_Set1_2 => m_Wrapper.m_Player_ControllerAlt_B_Set1_2;
+        /// <summary>
+        /// Provides access to the underlying input action "Player_ControllerAlt/B_Set1_3".
+        /// </summary>
+        public InputAction @B_Set1_3 => m_Wrapper.m_Player_ControllerAlt_B_Set1_3;
+        /// <summary>
+        /// Provides access to the underlying input action "Player_ControllerAlt/B_Set1_4".
+        /// </summary>
+        public InputAction @B_Set1_4 => m_Wrapper.m_Player_ControllerAlt_B_Set1_4;
+        /// <summary>
+        /// Provides access to the underlying input action "Player_ControllerAlt/B_Set2_1".
+        /// </summary>
+        public InputAction @B_Set2_1 => m_Wrapper.m_Player_ControllerAlt_B_Set2_1;
+        /// <summary>
+        /// Provides access to the underlying input action "Player_ControllerAlt/B_Set2_2".
+        /// </summary>
+        public InputAction @B_Set2_2 => m_Wrapper.m_Player_ControllerAlt_B_Set2_2;
+        /// <summary>
+        /// Provides access to the underlying input action "Player_ControllerAlt/B_Set2_3".
+        /// </summary>
+        public InputAction @B_Set2_3 => m_Wrapper.m_Player_ControllerAlt_B_Set2_3;
+        /// <summary>
+        /// Provides access to the underlying input action "Player_ControllerAlt/B_Set2_4".
+        /// </summary>
+        public InputAction @B_Set2_4 => m_Wrapper.m_Player_ControllerAlt_B_Set2_4;
+        /// <summary>
+        /// Provides access to the underlying input action "Player_ControllerAlt/B_Set3_1".
+        /// </summary>
+        public InputAction @B_Set3_1 => m_Wrapper.m_Player_ControllerAlt_B_Set3_1;
+        /// <summary>
+        /// Provides access to the underlying input action "Player_ControllerAlt/B_Set3_2".
+        /// </summary>
+        public InputAction @B_Set3_2 => m_Wrapper.m_Player_ControllerAlt_B_Set3_2;
+        /// <summary>
+        /// Provides access to the underlying input action "Player_ControllerAlt/B_Set3_3".
+        /// </summary>
+        public InputAction @B_Set3_3 => m_Wrapper.m_Player_ControllerAlt_B_Set3_3;
+        /// <summary>
+        /// Provides access to the underlying input action "Player_ControllerAlt/B_Set3_4".
+        /// </summary>
+        public InputAction @B_Set3_4 => m_Wrapper.m_Player_ControllerAlt_B_Set3_4;
+        /// <summary>
+        /// Provides access to the underlying input action map instance.
+        /// </summary>
+        public InputActionMap Get() { return m_Wrapper.m_Player_ControllerAlt; }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
+        public void Enable() { Get().Enable(); }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
+        public void Disable() { Get().Disable(); }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
+        public bool enabled => Get().enabled;
+        /// <summary>
+        /// Implicitly converts an <see ref="Player_ControllerAltActions" /> to an <see ref="InputActionMap" /> instance.
+        /// </summary>
+        public static implicit operator InputActionMap(Player_ControllerAltActions set) { return set.Get(); }
+        /// <summary>
+        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+        /// </summary>
+        /// <param name="instance">Callback instance.</param>
+        /// <remarks>
+        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
+        /// </remarks>
+        /// <seealso cref="Player_ControllerAltActions" />
+        public void AddCallbacks(IPlayer_ControllerAltActions instance)
+        {
+            if (instance == null || m_Wrapper.m_Player_ControllerAltActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_Player_ControllerAltActionsCallbackInterfaces.Add(instance);
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
+            @B_Set1_1.started += instance.OnB_Set1_1;
+            @B_Set1_1.performed += instance.OnB_Set1_1;
+            @B_Set1_1.canceled += instance.OnB_Set1_1;
+            @B_Set1_2.started += instance.OnB_Set1_2;
+            @B_Set1_2.performed += instance.OnB_Set1_2;
+            @B_Set1_2.canceled += instance.OnB_Set1_2;
+            @B_Set1_3.started += instance.OnB_Set1_3;
+            @B_Set1_3.performed += instance.OnB_Set1_3;
+            @B_Set1_3.canceled += instance.OnB_Set1_3;
+            @B_Set1_4.started += instance.OnB_Set1_4;
+            @B_Set1_4.performed += instance.OnB_Set1_4;
+            @B_Set1_4.canceled += instance.OnB_Set1_4;
+            @B_Set2_1.started += instance.OnB_Set2_1;
+            @B_Set2_1.performed += instance.OnB_Set2_1;
+            @B_Set2_1.canceled += instance.OnB_Set2_1;
+            @B_Set2_2.started += instance.OnB_Set2_2;
+            @B_Set2_2.performed += instance.OnB_Set2_2;
+            @B_Set2_2.canceled += instance.OnB_Set2_2;
+            @B_Set2_3.started += instance.OnB_Set2_3;
+            @B_Set2_3.performed += instance.OnB_Set2_3;
+            @B_Set2_3.canceled += instance.OnB_Set2_3;
+            @B_Set2_4.started += instance.OnB_Set2_4;
+            @B_Set2_4.performed += instance.OnB_Set2_4;
+            @B_Set2_4.canceled += instance.OnB_Set2_4;
+            @B_Set3_1.started += instance.OnB_Set3_1;
+            @B_Set3_1.performed += instance.OnB_Set3_1;
+            @B_Set3_1.canceled += instance.OnB_Set3_1;
+            @B_Set3_2.started += instance.OnB_Set3_2;
+            @B_Set3_2.performed += instance.OnB_Set3_2;
+            @B_Set3_2.canceled += instance.OnB_Set3_2;
+            @B_Set3_3.started += instance.OnB_Set3_3;
+            @B_Set3_3.performed += instance.OnB_Set3_3;
+            @B_Set3_3.canceled += instance.OnB_Set3_3;
+            @B_Set3_4.started += instance.OnB_Set3_4;
+            @B_Set3_4.performed += instance.OnB_Set3_4;
+            @B_Set3_4.canceled += instance.OnB_Set3_4;
+        }
+
+        /// <summary>
+        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+        /// </summary>
+        /// <remarks>
+        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
+        /// </remarks>
+        /// <seealso cref="Player_ControllerAltActions" />
+        private void UnregisterCallbacks(IPlayer_ControllerAltActions instance)
+        {
+            @Move.started -= instance.OnMove;
+            @Move.performed -= instance.OnMove;
+            @Move.canceled -= instance.OnMove;
+            @B_Set1_1.started -= instance.OnB_Set1_1;
+            @B_Set1_1.performed -= instance.OnB_Set1_1;
+            @B_Set1_1.canceled -= instance.OnB_Set1_1;
+            @B_Set1_2.started -= instance.OnB_Set1_2;
+            @B_Set1_2.performed -= instance.OnB_Set1_2;
+            @B_Set1_2.canceled -= instance.OnB_Set1_2;
+            @B_Set1_3.started -= instance.OnB_Set1_3;
+            @B_Set1_3.performed -= instance.OnB_Set1_3;
+            @B_Set1_3.canceled -= instance.OnB_Set1_3;
+            @B_Set1_4.started -= instance.OnB_Set1_4;
+            @B_Set1_4.performed -= instance.OnB_Set1_4;
+            @B_Set1_4.canceled -= instance.OnB_Set1_4;
+            @B_Set2_1.started -= instance.OnB_Set2_1;
+            @B_Set2_1.performed -= instance.OnB_Set2_1;
+            @B_Set2_1.canceled -= instance.OnB_Set2_1;
+            @B_Set2_2.started -= instance.OnB_Set2_2;
+            @B_Set2_2.performed -= instance.OnB_Set2_2;
+            @B_Set2_2.canceled -= instance.OnB_Set2_2;
+            @B_Set2_3.started -= instance.OnB_Set2_3;
+            @B_Set2_3.performed -= instance.OnB_Set2_3;
+            @B_Set2_3.canceled -= instance.OnB_Set2_3;
+            @B_Set2_4.started -= instance.OnB_Set2_4;
+            @B_Set2_4.performed -= instance.OnB_Set2_4;
+            @B_Set2_4.canceled -= instance.OnB_Set2_4;
+            @B_Set3_1.started -= instance.OnB_Set3_1;
+            @B_Set3_1.performed -= instance.OnB_Set3_1;
+            @B_Set3_1.canceled -= instance.OnB_Set3_1;
+            @B_Set3_2.started -= instance.OnB_Set3_2;
+            @B_Set3_2.performed -= instance.OnB_Set3_2;
+            @B_Set3_2.canceled -= instance.OnB_Set3_2;
+            @B_Set3_3.started -= instance.OnB_Set3_3;
+            @B_Set3_3.performed -= instance.OnB_Set3_3;
+            @B_Set3_3.canceled -= instance.OnB_Set3_3;
+            @B_Set3_4.started -= instance.OnB_Set3_4;
+            @B_Set3_4.performed -= instance.OnB_Set3_4;
+            @B_Set3_4.canceled -= instance.OnB_Set3_4;
+        }
+
+        /// <summary>
+        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="Player_ControllerAltActions.UnregisterCallbacks(IPlayer_ControllerAltActions)" />.
+        /// </summary>
+        /// <seealso cref="Player_ControllerAltActions.UnregisterCallbacks(IPlayer_ControllerAltActions)" />
+        public void RemoveCallbacks(IPlayer_ControllerAltActions instance)
+        {
+            if (m_Wrapper.m_Player_ControllerAltActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        /// <summary>
+        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
+        /// </summary>
+        /// <remarks>
+        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
+        /// </remarks>
+        /// <seealso cref="Player_ControllerAltActions.AddCallbacks(IPlayer_ControllerAltActions)" />
+        /// <seealso cref="Player_ControllerAltActions.RemoveCallbacks(IPlayer_ControllerAltActions)" />
+        /// <seealso cref="Player_ControllerAltActions.UnregisterCallbacks(IPlayer_ControllerAltActions)" />
+        public void SetCallbacks(IPlayer_ControllerAltActions instance)
+        {
+            foreach (var item in m_Wrapper.m_Player_ControllerAltActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_Player_ControllerAltActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    /// <summary>
+    /// Provides a new <see cref="Player_ControllerAltActions" /> instance referencing this action map.
+    /// </summary>
+    public Player_ControllerAltActions @Player_ControllerAlt => new Player_ControllerAltActions(this);
     private int m_KeyboardMouseSchemeIndex = -1;
     /// <summary>
     /// Provides access to the input control scheme.
@@ -1767,96 +2695,187 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     public interface IPlayerActions
     {
         /// <summary>
-        /// Method invoked when associated input action "Move" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Button_Q" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnMove(InputAction.CallbackContext context);
+        void OnButton_Q(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Button_Set1_1" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Button_W" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnButton_Set1_1(InputAction.CallbackContext context);
+        void OnButton_W(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Button_Set1_2" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Button_E" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnButton_Set1_2(InputAction.CallbackContext context);
+        void OnButton_E(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Button_Set1_3" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Button_R" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnButton_Set1_3(InputAction.CallbackContext context);
+        void OnButton_R(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Button_Set1_4" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Button_T" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnButton_Set1_4(InputAction.CallbackContext context);
+        void OnButton_T(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Button_Set2_1" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Button_Z" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnButton_Set2_1(InputAction.CallbackContext context);
+        void OnButton_Z(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Button_Set2_2" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Button_U" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnButton_Set2_2(InputAction.CallbackContext context);
+        void OnButton_U(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Button_Set2_3" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Button_I" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnButton_Set2_3(InputAction.CallbackContext context);
+        void OnButton_I(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Button_Set2_4" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Button_O" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnButton_Set2_4(InputAction.CallbackContext context);
+        void OnButton_O(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Button_Set3_1" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Button_P" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnButton_Set3_1(InputAction.CallbackContext context);
+        void OnButton_P(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Button_Set3_2" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Button_A" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnButton_Set3_2(InputAction.CallbackContext context);
+        void OnButton_A(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Button_Set3_3" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Button_S" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnButton_Set3_3(InputAction.CallbackContext context);
+        void OnButton_S(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Button_Set3_4" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Button_D" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnButton_Set3_4(InputAction.CallbackContext context);
+        void OnButton_D(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Button_F" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnButton_F(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Button_G" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnButton_G(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Button_H" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnButton_H(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Button_J" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnButton_J(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Button_K" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnButton_K(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Button_L" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnButton_L(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Button_Y" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnButton_Y(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Button_X" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnButton_X(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Button_C" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnButton_C(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Button_V" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnButton_V(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Button_B" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnButton_B(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Button_N" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnButton_N(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Button_M" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnButton_M(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "UI" which allows adding and removing callbacks.
@@ -1935,5 +2954,104 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnTrackedDeviceOrientation(InputAction.CallbackContext context);
+    }
+    /// <summary>
+    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Player_ControllerAlt" which allows adding and removing callbacks.
+    /// </summary>
+    /// <seealso cref="Player_ControllerAltActions.AddCallbacks(IPlayer_ControllerAltActions)" />
+    /// <seealso cref="Player_ControllerAltActions.RemoveCallbacks(IPlayer_ControllerAltActions)" />
+    public interface IPlayer_ControllerAltActions
+    {
+        /// <summary>
+        /// Method invoked when associated input action "Move" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnMove(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "B_Set1_1" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnB_Set1_1(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "B_Set1_2" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnB_Set1_2(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "B_Set1_3" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnB_Set1_3(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "B_Set1_4" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnB_Set1_4(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "B_Set2_1" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnB_Set2_1(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "B_Set2_2" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnB_Set2_2(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "B_Set2_3" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnB_Set2_3(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "B_Set2_4" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnB_Set2_4(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "B_Set3_1" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnB_Set3_1(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "B_Set3_2" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnB_Set3_2(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "B_Set3_3" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnB_Set3_3(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "B_Set3_4" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnB_Set3_4(InputAction.CallbackContext context);
     }
 }

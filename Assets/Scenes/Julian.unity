@@ -1104,8 +1104,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
+  m_NeverAutoSwitchControlSchemes: 1
+  m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 519420031}
@@ -1195,6 +1195,162 @@ MonoBehaviour:
     _xboxSprite: {fileID: 1326238866, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
     _switchSprite: {fileID: 1326238866, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
     _genericSprite: {fileID: 1326238866, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+  - _inputAction: {fileID: -1900072247902321870, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 182514567, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 8182032155292960370, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 405151817, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 8892308167404107704, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -1350719223, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 5474759685602278811, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 963395442, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: -5420200660182371781, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 1129167679, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: -6548406262019184422, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -122979845, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 299030531107810136, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 1465294413, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 7008147048791596124, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 1195002773, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 4815165064530573596, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -346547585, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 4063198718625689895, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -2097954319, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 1144983155555570436, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 493669154, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 1509171173238851876, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 1766541742, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: -2298945259280630273, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -948022478, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: -5657019881625492844, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -1569355150, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 4561502169618135253, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -670361210, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 4920360712454190948, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 778978904, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 1148181851623168611, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -1555533735, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 2419103962228139963, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 1072175574, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: -3542948507954071944, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -202709270, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: -2906885941909071384, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 45580367, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: -2381025916736870530, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 801240903, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: -5051421032303032388, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 60565751, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 6619368783827789302, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -1333811728, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: -1142585223833696540, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -1182562039, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: -7600767172541649660, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 476792018, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: -244521168296444035, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -1703588117, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 0}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
 --- !u!4 &1469396465
 Transform:
   m_ObjectHideFlags: 0

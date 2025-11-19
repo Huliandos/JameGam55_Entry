@@ -34,7 +34,7 @@ public class InputManager : Singleton<InputManager>
         List<InputAction> inputActions = new List<InputAction>();
         foreach(InputAction inputAction in _playerInput.actions)
         {
-            if (inputAction.name.Contains("Button_Set"))
+            if (inputAction.name.Contains("Button"))
             {
                 inputActions.Add(inputAction);
                 continue;
