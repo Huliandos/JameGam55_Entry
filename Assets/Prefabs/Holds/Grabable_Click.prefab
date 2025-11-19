@@ -85,11 +85,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4842918122132991267}
   - component: {fileID: 9035112633867711482}
-  - component: {fileID: 7497504058243671264}
+  - component: {fileID: 7025247362489144800}
   - component: {fileID: 5798617032764678050}
   - component: {fileID: 6126849542635273317}
   m_Layer: 6
-  m_Name: Grabable
+  m_Name: Grabable_Click
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104,7 +104,7 @@ Transform:
   m_GameObject: {fileID: 1390655961384725022}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.69, y: 2.03, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -166,7 +166,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7497504058243671264
+--- !u!114 &7025247362489144800
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,11 +175,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1390655961384725022}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a75bf38514aa8ea48bcfc751a998823c, type: 3}
+  m_Script: {fileID: 11500000, guid: 768d6f5eed5e83946bcecb560a058114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _instructionsImage: {fileID: 1319367553806727349}
-  _holdToAttach: 0
   _noDuplicateInputsRange: 10
 --- !u!50 &5798617032764678050
 Rigidbody2D:

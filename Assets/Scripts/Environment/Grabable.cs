@@ -4,118 +4,82 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
-public class Grabable : MonoBehaviour
-{
-    public InputAction GrabableInputAction {get { return _grabableInputAction;}}
-
-    bool _hasAttachedLimb; 
-
-    [SerializeField] Image _instructionsImage;
-
-    [SerializeField] bool _holdToAttach;
-
-    [Header("Input generation")]
-    [SerializeField] float _noDuplicateInputsRange = 10;
-    InputAction _grabableInputAction;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+namespace Holds{
+    public abstract class Grabable : MonoBehaviour
     {
-        Collider2D[] collidersInRange = Physics2D.OverlapCircleAll(transform.position, _noDuplicateInputsRange, 1 << gameObject.layer);
+        public InputAction GrabableInputAction {get { return _grabableInputAction;}}
 
-        if(collidersInRange.Length >= InputManager.Instance.GrabbingInputActions.Length)
+        [SerializeField] Image _instructionsImage;
+
+        [Header("Input generation")]
+        [SerializeField] float _noDuplicateInputsRange = 10;
+        InputAction _grabableInputAction;
+
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        protected virtual void Start()
         {
-            Debug.LogError($"[{GetType()}] {gameObject} has more neighbors than legal grabbing input actions are allowed. Disabling");
-            gameObject.SetActive(false);
-            return;
-        }
+            Collider2D[] collidersInRange = Physics2D.OverlapCircleAll(transform.position, _noDuplicateInputsRange, 1 << gameObject.layer);
 
-        bool inputAlreadyAssigned = true;
-        InputAction randomInputAction = null;
-        while (inputAlreadyAssigned){
-            randomInputAction = InputManager.Instance.GetRandomInputAction();
-            inputAlreadyAssigned = false;
-            foreach(Collider2D collider in collidersInRange)
+            Debug.Log($"{collidersInRange == null} {InputManager.Instance.GrabbingInputActions == null}");
+
+            if(collidersInRange.Length >= InputManager.Instance.GrabbingInputActions.Length)
             {
-                Grabable grabable = collider.GetComponent<Grabable>();
-                if(grabable.GrabableInputAction == randomInputAction)
+                Debug.LogError($"[{GetType()}] {gameObject} has more neighbors than legal grabbing input actions are allowed. Disabling");
+                gameObject.SetActive(false);
+                return;
+            }
+
+            bool inputAlreadyAssigned = true;
+            InputAction randomInputAction = null;
+            while (inputAlreadyAssigned){
+                randomInputAction = InputManager.Instance.GetRandomInputAction();
+                inputAlreadyAssigned = false;
+                foreach(Collider2D collider in collidersInRange)
                 {
-                    inputAlreadyAssigned = true;
-                    break;
+                    Grabable grabable = collider.GetComponent<Grabable>();
+                    if(grabable.GrabableInputAction == randomInputAction)
+                    {
+                        inputAlreadyAssigned = true;
+                        break;
+                    }
                 }
             }
+
+            _grabableInputAction = randomInputAction;
+
+            _grabableInputAction.performed += KeyDown;
+            _grabableInputAction.canceled += KeyUp;
+
+            InputManager.Instance.OnDeviceChanged += UpdateSprite;
+            UpdateSprite();
         }
 
-        _grabableInputAction = randomInputAction;
-
-        _grabableInputAction.performed += KeyDown;
-        _grabableInputAction.canceled += KeyUp;
-
-        InputManager.Instance.OnDeviceChanged += UpdateSprite;
-        UpdateSprite();
-    }
-
-    private void UpdateSprite()
-    {
-        //_instructionsImage.text = _grabableInputAction.GetBindingDisplayString();
-        _instructionsImage.sprite = InputManager.Instance.GetSpriteOfInputAction(_grabableInputAction);
-    }
-
-    void OnEnable()
-    {
-        _instructionsImage.gameObject.SetActive(true);
-    }
-
-    void OnDisable()
-    {
-        _instructionsImage.gameObject.SetActive(false);
-    }
-
-    private void KeyDown(InputAction.CallbackContext context)
-    {
-        Debug.Log("Key down");
-        if(!enabled)
-            return;
-
-        if (_holdToAttach)
+        protected virtual void UpdateSprite()
         {
-            Player.PlayerBrain.Instance.AttachToGrabable(this);
-            return;
+            //_instructionsImage.text = _grabableInputAction.GetBindingDisplayString();
+            _instructionsImage.sprite = InputManager.Instance.GetSpriteOfInputAction(_grabableInputAction);
         }
 
-        if (_hasAttachedLimb)
+        protected virtual void OnEnable()
         {
-            Player.PlayerBrain.Instance.DetachFromGrabable(this);
-            _hasAttachedLimb = false;
-            return;
+            _instructionsImage.gameObject.SetActive(true);
         }
-        Player.PlayerBrain.Instance.AttachToGrabable(this);
-        _hasAttachedLimb = true;
-    }
 
-    private void KeyPerformed(InputAction.CallbackContext context)
-    {
-        Debug.Log("Key performed");
-    }
-
-    private void KeyUp(InputAction.CallbackContext context)
-    {
-        Debug.Log("Key up");
-        if(!enabled)
-            return;
-
-        if (_holdToAttach)
+        protected virtual void OnDisable()
         {
-            Player.PlayerBrain.Instance.DetachFromGrabable(this);
-            return;
+            _instructionsImage.gameObject.SetActive(false);
         }
-    }
 
-    void OnDrawGizmosSelected()
-    {
-        // Set the gizmo color
-        Gizmos.color = Color.green;
+        protected abstract void KeyDown(InputAction.CallbackContext context);
 
-        Gizmos.DrawWireSphere(transform.position, _noDuplicateInputsRange);
+        protected abstract void KeyUp(InputAction.CallbackContext context);
+
+        void OnDrawGizmosSelected()
+        {
+            // Set the gizmo color
+            Gizmos.color = Color.green;
+
+            Gizmos.DrawWireSphere(transform.position, _noDuplicateInputsRange);
+        }
     }
 }

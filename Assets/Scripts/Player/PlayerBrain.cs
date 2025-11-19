@@ -28,7 +28,7 @@ namespace Player{
 
         public void GrabableEnteredRange(Collider2D col)
         {
-            Grabable grabable = col.GetComponent<Grabable>();
+            Holds.Grabable grabable = col.GetComponent<Holds.Grabable>();
 
             if(grabable == null)
             {
@@ -41,7 +41,7 @@ namespace Player{
         
         public void GrabableLeftRange(Collider2D col)
         {
-            Grabable grabable = col.GetComponent<Grabable>();
+            Holds.Grabable grabable = col.GetComponent<Holds.Grabable>();
 
             if(grabable == null)
             {
@@ -52,7 +52,7 @@ namespace Player{
             grabable.enabled = false;
         }
 
-        public void AttachToGrabable(Grabable grabable)
+        public void AttachToGrabable(Holds.Grabable grabable)
         {
             Limb chosenLimb = _limbs[0];
             float chosenLimbAttachementDistance = chosenLimb.AttachementDistanceSq(grabable.transform.position);
@@ -78,7 +78,7 @@ namespace Player{
             chosenLimb.Attach(grabable.transform);
         }
 
-        public void DetachFromGrabable(Grabable grabable)
+        public void DetachFromGrabable(Holds.Grabable grabable)
         {
             foreach(Limb limb in _limbs)
             {

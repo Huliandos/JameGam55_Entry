@@ -19,18 +19,7 @@ public class InputManager : Singleton<InputManager>
     protected override void Awake()
     {
         base.Awake();
-        _playerInput.onControlsChanged += ControlsChanged;
-    }
 
-    protected override void OnDestroy()
-    {
-        base.OnDestroy();
-        _playerInput.onControlsChanged -= ControlsChanged;
-    }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
         List<InputAction> inputActions = new List<InputAction>();
         foreach(InputAction inputAction in _playerInput.actions)
         {
@@ -43,6 +32,14 @@ public class InputManager : Singleton<InputManager>
         GrabbingInputActions = inputActions.ToArray();
 
         ControlsChanged(_playerInput);
+
+        _playerInput.onControlsChanged += ControlsChanged;
+    }
+
+    protected override void OnDestroy()
+    {
+        base.OnDestroy();
+        _playerInput.onControlsChanged -= ControlsChanged;
     }
 
     public InputAction GetRandomInputAction()
