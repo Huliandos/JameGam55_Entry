@@ -10,14 +10,16 @@ namespace Holds{
                 return;
 
             Player.PlayerBrain.Instance.AttachToGrabable(this);
+            _hasAttachedLimb = true;
         }
 
         protected override void KeyUp(InputAction.CallbackContext context)
         {
-            if(!enabled)
+            if(!enabled && !_hasAttachedLimb)
                 return;
 
             Player.PlayerBrain.Instance.DetachFromGrabable(this);
+            _hasAttachedLimb = false;
         }
 
     }
