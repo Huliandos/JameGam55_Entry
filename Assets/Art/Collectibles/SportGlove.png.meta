@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 096fc0094cc995549b8ef7897421ca8e
+guid: 600dcacf3b1636d4389971e829ce2b0d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5003986716865755101
-    second: foot_0
+      213: -2160211841706910240
+    second: SportGlove_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: foot_0
+      name: SportGlove_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 232
-        height: 349
+        width: 1358
+        height: 1071
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3288170e7944e8ab0800000000000000
-      internalID: -5003986716865755101
+      spriteID: 0ed977776c26502e0800000000000000
+      internalID: -2160211841706910240
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      foot_0: -5003986716865755101
+      SportGlove_0: -2160211841706910240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
