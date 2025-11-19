@@ -1061,6 +1061,155 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc7a699ce1a6abf4fbedd4ddbc3fcb2d, type: 3}
+--- !u!1 &1469396462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1469396465}
+  - component: {fileID: 1469396464}
+  - component: {fileID: 1469396463}
+  m_Layer: 0
+  m_Name: InputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1469396463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469396462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_NotificationBehavior: 3
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 519420031}
+--- !u!114 &1469396464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469396462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e4903df9e41b674baa08d1fd207d7b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerInput: {fileID: 1469396463}
+  _inputActionIconsMappings:
+  - _inputAction: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 963395442, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 1084292842, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: -7417352273214935182, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 1129167679, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: -113176253, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 8974222673654344252, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -1569355150, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: -390365173, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 7744401604476745772, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -670361210, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 461571114, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _xboxSprite: {fileID: 0}
+    _switchSprite: {fileID: 0}
+    _genericSprite: {fileID: 0}
+  - _inputAction: {fileID: 3809837851243824799, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -122979845, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 1163955591, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _xboxSprite: {fileID: 1163955591, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _switchSprite: {fileID: 1163955591, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _genericSprite: {fileID: 1163955591, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+  - _inputAction: {fileID: 482046751986971876, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 1465294413, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 816383215, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _xboxSprite: {fileID: 816383215, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _switchSprite: {fileID: 816383215, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _genericSprite: {fileID: 816383215, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+  - _inputAction: {fileID: -1819707648453920438, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 778978904, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 324559572, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _xboxSprite: {fileID: 324559572, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _switchSprite: {fileID: 324559572, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _genericSprite: {fileID: 324559572, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+  - _inputAction: {fileID: -4269979183845280067, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -1555533735, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 1938816488, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _xboxSprite: {fileID: 1938816488, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _switchSprite: {fileID: 1938816488, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _genericSprite: {fileID: 1938816488, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+  - _inputAction: {fileID: -1795739044331210587, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 1195002773, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: -341555778, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _xboxSprite: {fileID: -341555778, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _switchSprite: {fileID: -341555778, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _genericSprite: {fileID: -341555778, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+  - _inputAction: {fileID: -8334019366376123202, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -346547585, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 1053706052, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _xboxSprite: {fileID: 1053706052, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _switchSprite: {fileID: 1053706052, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _genericSprite: {fileID: 1053706052, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+  - _inputAction: {fileID: -308950036516525625, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: 1072175574, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: -861279469, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _xboxSprite: {fileID: -861279469, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _switchSprite: {fileID: -861279469, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _genericSprite: {fileID: -861279469, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+  - _inputAction: {fileID: -5905097076170848368, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _keyboardSprite: {fileID: -202709270, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _playstationSprite: {fileID: 1326238866, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _xboxSprite: {fileID: 1326238866, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _switchSprite: {fileID: 1326238866, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+    _genericSprite: {fileID: 1326238866, guid: 069a00c4a21d8654bbe27600f3ba7103, type: 3}
+--- !u!4 &1469396465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469396462}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1485492001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1968,6 +2117,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1469396465}
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 6848839510172507254}
