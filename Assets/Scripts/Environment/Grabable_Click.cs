@@ -4,11 +4,10 @@ using UnityEngine.InputSystem;
 namespace Holds{
     public class Grabable_Click : Grabable
     {
-        bool _hasAttachedLimb; 
-
         protected override void KeyDown(InputAction.CallbackContext context)
         {
-            if(!enabled)
+            //can let go if not enabled
+            if(!enabled && !_hasAttachedLimb)
                 return;
 
             if (_hasAttachedLimb)

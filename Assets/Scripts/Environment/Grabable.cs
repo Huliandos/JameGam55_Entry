@@ -15,12 +15,12 @@ namespace Holds{
         [SerializeField] float _noDuplicateInputsRange = 10;
         InputAction _grabableInputAction;
 
+        protected bool _hasAttachedLimb; 
+
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         protected virtual void Start()
         {
             Collider2D[] collidersInRange = Physics2D.OverlapCircleAll(transform.position, _noDuplicateInputsRange, 1 << gameObject.layer);
-
-            Debug.Log($"{collidersInRange == null} {InputManager.Instance.GrabbingInputActions == null}");
 
             if(collidersInRange.Length >= InputManager.Instance.GrabbingInputActions.Length)
             {
@@ -76,7 +76,6 @@ namespace Holds{
 
         void OnDrawGizmosSelected()
         {
-            // Set the gizmo color
             Gizmos.color = Color.green;
 
             Gizmos.DrawWireSphere(transform.position, _noDuplicateInputsRange);
