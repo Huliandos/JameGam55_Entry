@@ -48,7 +48,7 @@ public class Grabable : MonoBehaviour
 
         _grabableInputAction = randomInputAction;
 
-        _grabableInputAction.started += KeyDown;
+        _grabableInputAction.performed += KeyDown;
         _grabableInputAction.canceled += KeyUp;
 
         InputManager.Instance.OnDeviceChanged += UpdateSprite;
@@ -73,6 +73,7 @@ public class Grabable : MonoBehaviour
 
     private void KeyDown(InputAction.CallbackContext context)
     {
+        Debug.Log("Key down");
         if(!enabled)
             return;
 
@@ -92,8 +93,14 @@ public class Grabable : MonoBehaviour
         _hasAttachedLimb = true;
     }
 
+    private void KeyPerformed(InputAction.CallbackContext context)
+    {
+        Debug.Log("Key performed");
+    }
+
     private void KeyUp(InputAction.CallbackContext context)
     {
+        Debug.Log("Key up");
         if(!enabled)
             return;
 
