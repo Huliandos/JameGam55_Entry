@@ -2,15 +2,43 @@ using UnityEngine;
 
 public class Beautify : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] GameObject CurlyBlondeWig;
+    [SerializeField] GameObject FullLips;
+    [SerializeField] GameObject GOSportsLeft;
+    [SerializeField] GameObject GOSportsRight;
+    [SerializeField] GameObject BowTie;
+    [SerializeField] GameObject RedBootsLeft;
+    [SerializeField] GameObject RedBootsRight;
+
+    public int collectedItems = 0;
+
+    public void EnableCurlyBlondeWig()
     {
-        
+        CurlyBlondeWig.SetActive(true);
+        collectedItems++;
+    }
+    public void EnableFullLips()
+    {
+        FullLips.SetActive(true);
+        collectedItems++;
+    }
+    public void EnableGOSports()
+    {
+        GOSportsLeft.SetActive(true);
+        GOSportsRight.SetActive(true);
+        collectedItems++;
+    }
+    public void EnableBowTie()
+    {
+        BowTie.SetActive(true);
+        collectedItems++;
+    }
+    public void EnableRedBoots()
+    {
+        RedBootsLeft.SetActive(true);
+        RedBootsRight.SetActive(true);
+        collectedItems++;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

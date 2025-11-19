@@ -4,7 +4,7 @@ public class CopyLimbDirection : MonoBehaviour
 {
     [SerializeField] Transform LimbEnd;
     [SerializeField] Transform LimbMiddle;
-    [SerializeField] int ExecuteEveryXFrames=3;
+    [SerializeField] int ExecuteEveryXFrames = 3;
 
     int frameCounter = 0;
 
