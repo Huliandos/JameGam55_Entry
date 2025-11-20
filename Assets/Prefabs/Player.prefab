@@ -1535,7 +1535,7 @@ FixedJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.28, y: 0.35000002}
+  m_ConnectedAnchor: {x: 0.28, y: 0.35}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!255 &974344269608758619
@@ -1554,7 +1554,7 @@ FixedJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.32, y: 0.34000003}
+  m_ConnectedAnchor: {x: -0.32, y: 0.34}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!1 &6335997476488793403
@@ -1568,7 +1568,7 @@ GameObject:
   - component: {fileID: 3343556729719052162}
   - component: {fileID: 3392535615926914773}
   - component: {fileID: 1907375536808342346}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: GrabableRange
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -10,6 +10,11 @@ public class FollowTrans : MonoBehaviour
 
     Vector3 velocity = Vector3.zero;
 
+    void Start()
+    {
+        transform.position = _trans.position + _offset;
+    }
+
     // Update is called once per frame
     void Update()
     {
