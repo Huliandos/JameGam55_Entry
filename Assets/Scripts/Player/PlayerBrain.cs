@@ -1,11 +1,18 @@
+using System.Collections;
 using UnityEngine;
 
 namespace Player{
-    public abstract class PlayerBrain : MonoBehaviour
+    public class PlayerBrain : MonoBehaviour
     {
         public static PlayerBrain Instance {get; private set;}
 
         [SerializeField] Limb[] _limbs;
+
+        [SerializeField] Collider2D _grabableRangeCollider;
+
+        [SerializeField] float _stunDuration = 1;
+
+        Coroutine _stunnedCoroutine;
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Awake()
@@ -18,12 +25,6 @@ namespace Player{
             }
 
             Instance = this;
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
         }
 
         public void GrabableEnteredRange(Collider2D col)
@@ -89,6 +90,42 @@ namespace Player{
                     break;
                 }
             }
+        }
+
+        [ContextMenu("Stun")]
+        public void Stun()
+        {
+            _grabableRangeCollider.enabled = false;
+
+            if(_stunnedCoroutine != null)
+            {
+                StopCoroutine(_stunnedCoroutine);
+            }
+            _stunnedCoroutine = StartCoroutine(ReenableColliderCoroutine());
+
+            DetachAllLimbs();
+        }
+
+        IEnumerator ReenableColliderCoroutine()
+        {
+            yield return new WaitForSeconds(_stunDuration);
+            _grabableRangeCollider.enabled = true;
+            _stunnedCoroutine = null;
+        }
+
+        void DetachAllLimbs()
+        {
+            foreach(Limb limb in _limbs)
+                DetachLimb(limb);
+        }
+
+        void DetachLimb(Limb limb)
+        {
+            if(limb.AttachedTo == null){
+                Debug.LogWarning($"[{GetType()}] Tried to detach limb that wasn't attached to anything");
+                return;
+            }
+            DetachFromGrabable(limb.AttachedTo.GetComponent<Holds.Grabable>());
         }
     }
 }

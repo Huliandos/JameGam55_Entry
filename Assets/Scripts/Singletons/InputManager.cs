@@ -59,7 +59,7 @@ public class InputManager : Singleton<InputManager>
                 gamepad is UnityEngine.InputSystem.DualShock.DualShock3GamepadHID ||
                 gamepad is UnityEngine.InputSystem.DualShock.DualShock4GamepadHID)
             {
-                Debug.Log($"[{GetType()}] Switchted to PlayStation Controller");
+                Debug.Log($"[{GetType()}] Switched to PlayStation Controller");
 
                 _currentDeviceType = DeviceType.PLAYSTATION;
             }
@@ -67,26 +67,26 @@ public class InputManager : Singleton<InputManager>
                 gamepad is UnityEngine.InputSystem.XInput.IXboxOneRumble ||
                 gamepad is UnityEngine.InputSystem.XInput.XInputControllerWindows)
             {
-                Debug.Log($"[{GetType()}] Switchted to Xbox Controller");
+                Debug.Log($"[{GetType()}] Switched to Xbox Controller");
 
                 _currentDeviceType = DeviceType.XBOX;
             }
             else if (gamepad is UnityEngine.InputSystem.Switch.SwitchProControllerHID)
             {
-                Debug.Log($"[{GetType()}] Switchted to Nintendo Switch Controller");
+                Debug.Log($"[{GetType()}] Switched to Nintendo Switch Controller");
 
                 _currentDeviceType = DeviceType.SWITCH;
             }
             else
             {
-                Debug.Log($"[{GetType()}] Switchted to Generic Gamepad");
+                Debug.Log($"[{GetType()}] Switched to Generic Gamepad");
 
                 _currentDeviceType = DeviceType.GENERIC_GAMEPAD;
             }
         }
         else if (playerInput.currentControlScheme == "Keyboard&Mouse")
         {
-            Debug.Log($"[{GetType()}] Switchted to Keyboard and Mouse");
+            Debug.Log($"[{GetType()}] Switched to Keyboard and Mouse");
 
             _currentDeviceType = DeviceType.KEYBOARD;
         }

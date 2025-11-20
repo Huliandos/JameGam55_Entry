@@ -1242,13 +1242,14 @@ GameObject:
   - component: {fileID: 7087526633490992762}
   - component: {fileID: 632906465029199870}
   - component: {fileID: 2117937284555561845}
+  - component: {fileID: 1867002157386683657}
   - component: {fileID: 456954055521403125}
   - component: {fileID: 3358184917933578393}
+  - component: {fileID: 860852679719358573}
   - component: {fileID: 5181622045183650716}
   - component: {fileID: 2705922833409638273}
   - component: {fileID: 4161718170711293510}
   - component: {fileID: 974344269608758619}
-  - component: {fileID: 1867002157386683657}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -1349,6 +1350,28 @@ MonoBehaviour:
   - {fileID: 6068176397665635990}
   - {fileID: 102449337418622025}
   - {fileID: 87578037873807562}
+  _grabableRangeCollider: {fileID: 3392535615926914773}
+  _stunDuration: 3
+--- !u!114 &1867002157386683657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5730633156561289862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 038abeea12ec4454f9906617724496dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurlyBlondeWig: {fileID: 3472970639064947642}
+  FullLips: {fileID: 483981883125096745}
+  GOSportsLeft: {fileID: 1474253219750257136}
+  GOSportsRight: {fileID: 872427572050228914}
+  BowTie: {fileID: 2529765673363627949}
+  RedBootsLeft: {fileID: 3030205037858861549}
+  RedBootsRight: {fileID: 3443878558841350614}
+  collectedItems: 0
 --- !u!50 &456954055521403125
 Rigidbody2D:
   serializedVersion: 5
@@ -1413,6 +1436,51 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.325}
   m_Size: {x: 1, y: 1.6}
   m_Direction: 0
+--- !u!114 &860852679719358573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5730633156561289862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88229cbd03cbd354e8174dea77bf802d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collisionLayerMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  OnTriggerEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTriggerStay:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTriggerExit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCollisionEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2117937284555561845}
+        m_TargetAssemblyTypeName: Player.PlayerBrain_Click, Assembly-CSharp
+        m_MethodName: Stun
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnCollisionStay:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCollisionExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!255 &5181622045183650716
 FixedJoint2D:
   m_ObjectHideFlags: 0
@@ -1489,26 +1557,6 @@ FixedJoint2D:
   m_ConnectedAnchor: {x: -0.32, y: 0.34000003}
   m_DampingRatio: 0
   m_Frequency: 0
---- !u!114 &1867002157386683657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5730633156561289862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 038abeea12ec4454f9906617724496dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurlyBlondeWig: {fileID: 3472970639064947642}
-  FullLips: {fileID: 483981883125096745}
-  GOSportsLeft: {fileID: 1474253219750257136}
-  GOSportsRight: {fileID: 872427572050228914}
-  BowTie: {fileID: 2529765673363627949}
-  RedBootsLeft: {fileID: 3030205037858861549}
-  RedBootsRight: {fileID: 3443878558841350614}
-  collectedItems: 0
 --- !u!1 &6335997476488793403
 GameObject:
   m_ObjectHideFlags: 0
@@ -1626,6 +1674,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnCollisionEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCollisionStay:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCollisionExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7895802128804807378
 GameObject:
   m_ObjectHideFlags: 0

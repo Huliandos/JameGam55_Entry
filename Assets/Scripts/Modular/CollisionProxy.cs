@@ -1,11 +1,12 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class OnTrigger : MonoBehaviour
+public class CollisionProxy : MonoBehaviour
 {
     [SerializeField] LayerMask _collisionLayerMask;
 
     public UnityEvent<Collider2D> OnTriggerEnter, OnTriggerStay, OnTriggerExit;
+    public UnityEvent<Collision2D> OnCollisionEnter, OnCollisionStay, OnCollisionExit;
 
     void OnTriggerEnter2D(Collider2D collider)
     {
@@ -29,5 +30,29 @@ public class OnTrigger : MonoBehaviour
             return;
 
         OnTriggerExit?.Invoke(collider);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (((1 << collision.gameObject.layer) & _collisionLayerMask) == 0)
+            return;
+
+        OnCollisionEnter?.Invoke(collision);
+    }
+
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        if (((1 << collision.gameObject.layer) & _collisionLayerMask) == 0)
+            return;
+            
+        OnCollisionStay?.Invoke(collision);
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (((1 << collision.gameObject.layer) & _collisionLayerMask) == 0)
+            return;
+
+        OnCollisionExit?.Invoke(collision);
     }
 }
