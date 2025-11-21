@@ -1153,7 +1153,7 @@ GameObject:
   - component: {fileID: 1153733022}
   - component: {fileID: 1153733021}
   m_Layer: 0
-  m_Name: Girl
+  m_Name: GirlPlaceHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1243,7 +1243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2088854076198980658, guid: 7d77bd963b8850949927a8f34e6e8f6f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -51.7
+      value: -51.59
       objectReference: {fileID: 0}
     - target: {fileID: 2088854076198980658, guid: 7d77bd963b8850949927a8f34e6e8f6f, type: 3}
       propertyPath: m_LocalPosition.z
