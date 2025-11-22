@@ -8,6 +8,9 @@ public class StoryController : MonoBehaviour
     [SerializeField] GameObject startButton;
     [SerializeField] Animator kickAnimator;
     [SerializeField] Animator talkAnimator;
+    [SerializeField] private string talkAnimation = "GFtalk";
+    [SerializeField] private string kickAnimation = "GFkick";
+    
 
 
 
@@ -20,6 +23,10 @@ public class StoryController : MonoBehaviour
         wonSpeech.SetActive(false);
 
         startButton.SetActive(false);
+
+        talkAnimator.Play(talkAnimation, 0,0.0f);
+        kickAnimator.Play(kickAnimation, 0, 0.0f);
+
     }
 
     private void PlayLost()
