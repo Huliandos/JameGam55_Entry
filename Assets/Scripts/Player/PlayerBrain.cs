@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -11,6 +12,15 @@ namespace Player{
         [SerializeField] Collider2D _grabableRangeCollider;
 
         [SerializeField] float _stunDuration = 1;
+
+        [SerializeField] FacialExpressionInfo[] _facialExpressions;
+
+        [Header("Stunned fx")]
+        [SerializeField] GameObject _stunFx;
+
+        [SerializeField] AudioSource _audioSource;
+
+        [SerializeField] AudioClip[] _stunnedSFX;
 
         Coroutine _stunnedCoroutine;
 
@@ -95,6 +105,14 @@ namespace Player{
         [ContextMenu("Stun")]
         public void Stun()
         {
+            _stunFx.SetActive(true);
+            _audioSource.PlayOneShot(_stunnedSFX[UnityEngine.Random.Range(0, _stunnedSFX.Length)]);
+            foreach(FacialExpressionInfo facialExpressionInfo in _facialExpressions)
+            {
+                facialExpressionInfo.ToggleObjectsToMyState(FacialExpressionInfo.State.STUNNED);
+            }
+
+
             _grabableRangeCollider.enabled = false;
 
             if(_stunnedCoroutine != null)
@@ -109,6 +127,13 @@ namespace Player{
         IEnumerator ReenableColliderCoroutine()
         {
             yield return new WaitForSeconds(_stunDuration);
+
+            
+            foreach(FacialExpressionInfo facialExpressionInfo in _facialExpressions)
+            {
+                facialExpressionInfo.ToggleObjectsToMyState(FacialExpressionInfo.State.NORMAL);
+            }
+
             _grabableRangeCollider.enabled = true;
             _stunnedCoroutine = null;
         }
@@ -126,6 +151,42 @@ namespace Player{
                 return;
             }
             DetachFromGrabable(limb.AttachedTo.GetComponent<Holds.Grabable>());
+        }
+    }
+
+    [Serializable]
+    struct FacialExpressionInfo
+    {
+        public enum State {NORMAL, STUNNED}
+
+        [SerializeField] State _expressionState;
+
+        [SerializeField] GameObject[] _expressionObjects;
+
+        public void ToggleObjectsToMyState(State stateToCheckAgainst)
+        {
+            if(stateToCheckAgainst == _expressionState)
+            {
+                EnableObjects();
+                return;
+            }
+            DisableObjects();
+        }
+
+        public void EnableObjects()
+        {
+            foreach(GameObject objectToEnable in _expressionObjects)
+            {
+                objectToEnable.SetActive(true);
+            }
+        }
+
+        public void DisableObjects()
+        {
+            foreach(GameObject objectToEnable in _expressionObjects)
+            {
+                objectToEnable.SetActive(false);
+            }
         }
     }
 }
