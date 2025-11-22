@@ -593,22 +593,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 219024173039436110, guid: d9261aa54056de14ba8b4a39f13cd535, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 395862145490828554, guid: d9261aa54056de14ba8b4a39f13cd535, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1135901966743403732, guid: d9261aa54056de14ba8b4a39f13cd535, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1544083370762061474, guid: d9261aa54056de14ba8b4a39f13cd535, type: 3}
       propertyPath: m_ConnectedRigidBody
       value: 
       objectReference: {fileID: 410224357}
+    - target: {fileID: 3322655052223172913, guid: d9261aa54056de14ba8b4a39f13cd535, type: 3}
+      propertyPath: m_ConnectedRigidBody
+      value: 
+      objectReference: {fileID: 7273191679369171425}
     - target: {fileID: 4104342474956195788, guid: d9261aa54056de14ba8b4a39f13cd535, type: 3}
       propertyPath: m_ConnectedRigidBody
       value: 
@@ -661,10 +653,6 @@ PrefabInstance:
       propertyPath: m_ConnectedRigidBody
       value: 
       objectReference: {fileID: 2952175117957477884}
-    - target: {fileID: 8535249772267799275, guid: d9261aa54056de14ba8b4a39f13cd535, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9042428455068718612, guid: d9261aa54056de14ba8b4a39f13cd535, type: 3}
       propertyPath: m_ConnectedRigidBody
       value: 
@@ -672,13 +660,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5673865539876643664, guid: d9261aa54056de14ba8b4a39f13cd535, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1413756530}
-    - targetCorrespondingSourceObject: {fileID: 5673865539876643664, guid: d9261aa54056de14ba8b4a39f13cd535, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1413756531}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9261aa54056de14ba8b4a39f13cd535, type: 3}
 --- !u!1 &980954334
 GameObject:
@@ -767,54 +749,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1413756517 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5673865539876643664, guid: d9261aa54056de14ba8b4a39f13cd535, type: 3}
-  m_PrefabInstance: {fileID: 871195864}
-  m_PrefabAsset: {fileID: 0}
---- !u!231 &1413756530
-SpringJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1413756517}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 7273191679369171425}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_BreakAction: 3
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: 0}
-  m_AutoConfigureDistance: 1
-  m_Distance: 0.005
-  m_DampingRatio: 0.9
-  m_Frequency: 1
---- !u!95 &1413756531
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1413756517}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c7c334839303fa940a258fc72b6c79e3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1444875306
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,33 +928,6 @@ Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 49169716153562948, guid: 3f9790e45c4b2a34e99c05fb25294d14, type: 3}
   m_PrefabInstance: {fileID: 7273191679369171424}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1886856411 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 344412810813076200, guid: 3f9790e45c4b2a34e99c05fb25294d14, type: 3}
-  m_PrefabInstance: {fileID: 7273191679369171424}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1886856413
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886856411}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0c22aa49c6252cf4995d753cff45a488, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1933127709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,14 +1406,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GFlimbsControls
       objectReference: {fileID: 0}
-    - target: {fileID: 1230633847911920519, guid: 3f9790e45c4b2a34e99c05fb25294d14, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 4803980801859610060, guid: 3f9790e45c4b2a34e99c05fb25294d14, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.92
-      objectReference: {fileID: 0}
     - target: {fileID: 8423679390129003499, guid: 3f9790e45c4b2a34e99c05fb25294d14, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1550,10 +1449,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 344412810813076200, guid: 3f9790e45c4b2a34e99c05fb25294d14, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1886856413}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f9790e45c4b2a34e99c05fb25294d14, type: 3}
 --- !u!50 &7273191679369171425 stripped
 Rigidbody2D:

@@ -10,7 +10,7 @@ public class Beautify : MonoBehaviour
     [SerializeField] GameObject RedBootsLeft;
     [SerializeField] GameObject RedBootsRight;
 
-    public int collectedItems = 0;
+    static public int collectedItems = 0;
 
     public void EnableCurlyBlondeWig()
     {
