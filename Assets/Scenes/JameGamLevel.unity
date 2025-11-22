@@ -17270,11 +17270,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7087526633490992762, guid: 4d9b32e522142d94fb219e69d434f33b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -36.6
+      value: 85.4
       objectReference: {fileID: 0}
     - target: {fileID: 7087526633490992762, guid: 4d9b32e522142d94fb219e69d434f33b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 358.1
+      value: 66.6
       objectReference: {fileID: 0}
     - target: {fileID: 7087526633490992762, guid: 4d9b32e522142d94fb219e69d434f33b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -34752,6 +34752,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1531401679}
     m_Modifications:
+    - target: {fileID: 2296426633243226259, guid: 9d28eba83bec9f346a46c625a86f3212, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2296426633243226259, guid: 9d28eba83bec9f346a46c625a86f3212, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5332441014979144739, guid: 9d28eba83bec9f346a46c625a86f3212, type: 3}
       propertyPath: m_Name
       value: RedBootCollectible Variant
