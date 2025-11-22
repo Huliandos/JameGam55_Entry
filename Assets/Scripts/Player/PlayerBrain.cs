@@ -103,7 +103,7 @@ namespace Player{
         }
 
         [ContextMenu("Stun")]
-        public void Stun()
+        public void Stun(bool _unstunAutomatically = true)
         {
             _stunFx.SetActive(true);
             _audioSource.PlayOneShot(_stunnedSFX[UnityEngine.Random.Range(0, _stunnedSFX.Length)]);
@@ -112,23 +112,22 @@ namespace Player{
                 facialExpressionInfo.ToggleObjectsToMyState(FacialExpressionInfo.State.STUNNED);
             }
 
-
             _grabableRangeCollider.enabled = false;
 
-            if(_stunnedCoroutine != null)
-            {
-                StopCoroutine(_stunnedCoroutine);
-            }
-            _stunnedCoroutine = StartCoroutine(ReenableColliderCoroutine());
-
             DetachAllLimbs();
+
+            if(_unstunAutomatically)
+            {
+                if(_stunnedCoroutine != null)
+                {
+                    StopCoroutine(_stunnedCoroutine);
+                }
+                _stunnedCoroutine = StartCoroutine(ReenableColliderCoroutine());
+            }
         }
 
-        IEnumerator ReenableColliderCoroutine()
+        public void Unstun()
         {
-            yield return new WaitForSeconds(_stunDuration);
-
-            
             foreach(FacialExpressionInfo facialExpressionInfo in _facialExpressions)
             {
                 facialExpressionInfo.ToggleObjectsToMyState(FacialExpressionInfo.State.NORMAL);
@@ -136,6 +135,13 @@ namespace Player{
 
             _grabableRangeCollider.enabled = true;
             _stunnedCoroutine = null;
+        }
+
+        IEnumerator ReenableColliderCoroutine()
+        {
+            yield return new WaitForSeconds(_stunDuration);
+
+            Unstun();
         }
 
         void DetachAllLimbs()
