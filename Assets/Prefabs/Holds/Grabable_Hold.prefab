@@ -173,13 +173,92 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1390655961384725022}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbcaa254c8ff0fe42bbe8fbfab5e71fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _instructionsImage: {fileID: 1319367553806727349}
   _noDuplicateInputsRange: 10
+  _holdGfxMapping:
+  - _inputActionRef: {fileID: 1144983155555570436, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.6784314, g: 0.37254903, b: 1, a: 1}
+    _holdSprite: {fileID: -8841398786618349329, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: -1142585223833696540, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.6784314, g: 0.37254903, b: 1, a: 1}
+    _holdSprite: {fileID: -8281206871955034216, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: -5051421032303032388, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.6784314, g: 0.37254903, b: 1, a: 1}
+    _holdSprite: {fileID: 2335833940781221202, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: -2298945259280630273, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.6784314, g: 0.37254903, b: 1, a: 1}
+    _holdSprite: {fileID: -1348887828628818466, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: 8892308167404107704, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.6784314, g: 0.37254903, b: 1, a: 1}
+    _holdSprite: {fileID: 8178198885103340532, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: -5657019881625492844, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 1, g: 0.38496518, b: 0.37254906, a: 1}
+    _holdSprite: {fileID: -8841398786618349329, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: 4561502169618135253, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 1, g: 0.38431373, b: 0.37254903, a: 1}
+    _holdSprite: {fileID: -8281206871955034216, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: 4920360712454190948, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 1, g: 0.38431373, b: 0.37254903, a: 1}
+    _holdSprite: {fileID: 2335833940781221202, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: 7008147048791596124, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 1, g: 0.38431373, b: 0.37254903, a: 1}
+    _holdSprite: {fileID: -1348887828628818466, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: 1148181851623168611, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 1, g: 0.38431373, b: 0.37254903, a: 1}
+    _holdSprite: {fileID: 8178198885103340532, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: 2419103962228139963, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.37254906, g: 1, b: 0.40074354, a: 1}
+    _holdSprite: {fileID: -8841398786618349329, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: -3542948507954071944, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.37254903, g: 1, b: 0.4, a: 1}
+    _holdSprite: {fileID: -8281206871955034216, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: -244521168296444035, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.37254903, g: 1, b: 0.4, a: 1}
+    _holdSprite: {fileID: 2335833940781221202, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: -7600767172541649660, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.37254903, g: 1, b: 0.4, a: 1}
+    _holdSprite: {fileID: -1348887828628818466, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: 4815165064530573596, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.37254903, g: 1, b: 0.4, a: 1}
+    _holdSprite: {fileID: 8178198885103340532, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: 4063198718625689895, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.99772066, g: 1, b: 0.37254906, a: 1}
+    _holdSprite: {fileID: -8841398786618349329, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: -1900072247902321870, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.99607843, g: 1, b: 0.37254903, a: 1}
+    _holdSprite: {fileID: -8281206871955034216, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: 5474759685602278811, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.99607843, g: 1, b: 0.37254903, a: 1}
+    _holdSprite: {fileID: 2335833940781221202, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: 1509171173238851876, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.99607843, g: 1, b: 0.37254903, a: 1}
+    _holdSprite: {fileID: -1348887828628818466, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: -5420200660182371781, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.99607843, g: 1, b: 0.37254903, a: 1}
+    _holdSprite: {fileID: 8178198885103340532, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: 299030531107810136, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.37254906, g: 0.86550844, b: 1, a: 1}
+    _holdSprite: {fileID: -8841398786618349329, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: 6619368783827789302, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.37254903, g: 0.8666667, b: 1, a: 1}
+    _holdSprite: {fileID: -8281206871955034216, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: 8182032155292960370, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.37254903, g: 0.8666667, b: 1, a: 1}
+    _holdSprite: {fileID: 2335833940781221202, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: -2381025916736870530, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.37254903, g: 0.8666667, b: 1, a: 1}
+    _holdSprite: {fileID: -1348887828628818466, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: -2906885941909071384, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.37254903, g: 0.8666667, b: 1, a: 1}
+    _holdSprite: {fileID: 8178198885103340532, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
+  - _inputActionRef: {fileID: -6548406262019184422, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    _holdColor: {r: 0.98001784, g: 0.37254906, b: 1, a: 1}
+    _holdSprite: {fileID: -8841398786618349329, guid: fb4625a8144cc234f8c13adb191961f3, type: 3}
 --- !u!50 &5798617032764678050
 Rigidbody2D:
   serializedVersion: 5

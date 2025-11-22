@@ -1,6 +1,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
@@ -16,6 +17,8 @@ namespace Holds{
         InputAction _grabableInputAction;
 
         protected bool _hasAttachedLimb; 
+
+        [SerializeField] LetterColorSpriteMapping[] _holdGfxMapping;
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         protected virtual void Start()
@@ -47,11 +50,22 @@ namespace Holds{
 
             _grabableInputAction = randomInputAction;
 
+            foreach(LetterColorSpriteMapping mapping in _holdGfxMapping)
+            {
+                if(mapping.InputActionRef.action == _grabableInputAction){
+                    SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+                    spriteRenderer.sprite = mapping.HoldSprite;
+                    spriteRenderer.color = mapping.HoldColor;
+                }
+            }
+
             _grabableInputAction.performed += KeyDown;
             _grabableInputAction.canceled += KeyUp;
 
             InputManager.Instance.OnDeviceChanged += UpdateSprite;
             UpdateSprite();
+
+            enabled = false;
         }
 
         protected virtual void UpdateSprite()
@@ -80,5 +94,18 @@ namespace Holds{
 
             Gizmos.DrawWireSphere(transform.position, _noDuplicateInputsRange);
         }
+    }
+
+    [Serializable]
+    struct LetterColorSpriteMapping
+    {
+        public InputActionReference InputActionRef { get {return _inputActionRef;} }
+        [SerializeField] InputActionReference _inputActionRef;
+
+        public Color HoldColor { get {return _holdColor;} }
+        [SerializeField] Color _holdColor;
+
+        public Sprite HoldSprite { get {return _holdSprite;} }
+        [SerializeField] Sprite _holdSprite;
     }
 }
