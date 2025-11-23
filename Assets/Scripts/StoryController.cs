@@ -23,6 +23,8 @@ public class StoryController : MonoBehaviour
     [SerializeField] GameObject GameWonVFX2;
     [SerializeField] int requiredCollectibles = 0;
 
+    bool hasGameStarted = false;
+
 
 
     public void PlayIntro()
@@ -49,12 +51,12 @@ public class StoryController : MonoBehaviour
         talkAnimator.Play(talkAnimation, 0, 0.0f);
         kickAnimator.Play(kickAnimation, 0, 0.0f);
 
-        replayButton.SetActive(true);
+        //replayButton.SetActive(true);
 
         collectedItemsCount.SetActive(true); 
         timeSpendCount.SetActive(true);
     }
-
+    
     private void PlayWon()
     {
         introSpeech.SetActive(false);
@@ -68,6 +70,8 @@ public class StoryController : MonoBehaviour
 
     public void PlayGameEnd()
     {
+        if (!hasGameStarted)
+            return;
         _timer.Stop();
 
         if (Beautify.collectedItems >= requiredCollectibles)
