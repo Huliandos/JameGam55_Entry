@@ -81,7 +81,13 @@ namespace Holds{
 
         protected virtual void OnDisable()
         {
-            _instructionsImage.gameObject.SetActive(false);
+            if (!_hasAttachedLimb)
+                DisableActionTooltip();
+        }
+
+        protected void DisableActionTooltip()
+        {
+                _instructionsImage.gameObject.SetActive(false);
         }
 
         protected abstract void KeyDown(InputAction.CallbackContext context);

@@ -20,6 +20,9 @@ namespace Holds{
 
             Player.PlayerBrain.Instance.DetachFromGrabable(this);
             _hasAttachedLimb = false;
+
+            if(!enabled)
+                DisableActionTooltip();
         }
 
     }
