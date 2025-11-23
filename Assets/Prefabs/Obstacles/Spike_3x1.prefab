@@ -712,6 +712,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0.407
       objectReference: {fileID: 0}
+    - target: {fileID: 4313507943458697572, guid: 946b0993c437de2419e90af44b91d80d, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 7eb81c4ec040de04a8128a211ef5f668, type: 2}
     - target: {fileID: 4621500133292516211, guid: 946b0993c437de2419e90af44b91d80d, type: 3}
       propertyPath: m_Name
       value: Spike_3x1
