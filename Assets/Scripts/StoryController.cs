@@ -1,18 +1,23 @@
 using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class StoryController : MonoBehaviour
 {
     [SerializeField] GameObject introSpeech;
     [SerializeField] GameObject lostSpeech;
     [SerializeField] GameObject wonSpeech;
+
     [SerializeField] GameObject startButton;
+    [SerializeField] GameObject replayButton;
+
     [SerializeField] Animator kickAnimator;
     [SerializeField] Animator talkAnimator;
-    [SerializeField] private string talkAnimation = "GFtalk";
-    [SerializeField] private string kickAnimation = "GFkick";
-    
-
-
+    [SerializeField] string talkAnimation = "GFtalk";
+    [SerializeField] string kickAnimation = "GFkick";
+    [SerializeField] GameObject GameWonVFX1;
+    [SerializeField] GameObject GameWonVFX2;
+    [SerializeField] int requiredCollectibles = 0;
 
 
 
@@ -22,10 +27,12 @@ public class StoryController : MonoBehaviour
         lostSpeech.SetActive(false);
         wonSpeech.SetActive(false);
 
+        talkAnimator.Play(talkAnimation, 0, 0.0f);
+        kickAnimator.Play(kickAnimation, 0, 0.0f);
+
         startButton.SetActive(false);
 
-        talkAnimator.Play(talkAnimation, 0,0.0f);
-        kickAnimator.Play(kickAnimation, 0, 0.0f);
+        
 
     }
 
@@ -34,6 +41,11 @@ public class StoryController : MonoBehaviour
         introSpeech.SetActive(false);
         lostSpeech.SetActive(true);
         wonSpeech.SetActive(false);
+
+        talkAnimator.Play(talkAnimation, 0, 0.0f);
+        kickAnimator.Play(kickAnimation, 0, 0.0f);
+
+        replayButton.SetActive(true);
     }
 
     private void PlayWon()
@@ -41,14 +53,30 @@ public class StoryController : MonoBehaviour
         introSpeech.SetActive(false);
         lostSpeech.SetActive(false);
         wonSpeech.SetActive(true);
+
+        talkAnimator.Play(talkAnimation, 0, 0.0f);
+
+        StartCoroutine(gameWonWFX(3));
     }
 
     public void PlayGameEnd()
     {
-        if (Beautify.collectedItems == 5)
+        if (Beautify.collectedItems == requiredCollectibles)
             PlayWon();
         else
             PlayLost();
     }
 
+    IEnumerator gameWonWFX(int secs)
+    {
+        yield return new WaitForSeconds(secs);
+        GameWonVFX1.SetActive(false);
+        GameWonVFX2.SetActive(true);
+        replayButton.SetActive(true);
+    }
+
+    public void ReplayScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
