@@ -43992,9 +43992,29 @@ PrefabInstance:
       value: StartButton
       objectReference: {fileID: 0}
     - target: {fileID: 5920557509356244658, guid: ee9ad91ec18d6ec45b78ec680da4bc89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5920557509356244658, guid: ee9ad91ec18d6ec45b78ec680da4bc89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5920557509356244658, guid: ee9ad91ec18d6ec45b78ec680da4bc89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1820582775}
+    - target: {fileID: 5920557509356244658, guid: ee9ad91ec18d6ec45b78ec680da4bc89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1820582773}
+    - target: {fileID: 5920557509356244658, guid: ee9ad91ec18d6ec45b78ec680da4bc89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5920557509356244658, guid: ee9ad91ec18d6ec45b78ec680da4bc89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Story, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7491596076848527148, guid: ee9ad91ec18d6ec45b78ec680da4bc89, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

@@ -37,9 +37,7 @@ public class StoryController : MonoBehaviour
         kickAnimator.Play(kickAnimation, 0, 0.0f);
 
         startButton.SetActive(false);
-
-        
-
+        StartCoroutine(setGameStartBoolTrue(15));
     }
 
     private void PlayLost()
@@ -90,6 +88,13 @@ public class StoryController : MonoBehaviour
         collectedItemsCount.SetActive(true); 
         timeSpendCount.SetActive(true);
     }
+
+    IEnumerator setGameStartBoolTrue(int secs)
+    {
+        yield return new WaitForSeconds(secs);
+        hasGameStarted = true;
+    }
+    
 
     public void ReplayScene()
     {
