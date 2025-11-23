@@ -51,38 +51,38 @@ public class InputManager : Singleton<InputManager>
     {
         if (playerInput.currentControlScheme == "Gamepad")
         {
-            // Determine specific gamepad type
-            Gamepad gamepad = Gamepad.current;
+            //// Determine specific gamepad type
+            //Gamepad gamepad = Gamepad.current;
             
-            if (gamepad is UnityEngine.InputSystem.DualShock.DualShockGamepad ||
-                gamepad is UnityEngine.InputSystem.DualShock.DualSenseGamepadHID ||
-                gamepad is UnityEngine.InputSystem.DualShock.DualShock3GamepadHID ||
-                gamepad is UnityEngine.InputSystem.DualShock.DualShock4GamepadHID)
-            {
-                Debug.Log($"[{GetType()}] Switched to PlayStation Controller");
+            //if (gamepad is UnityEngine.InputSystem.DualShock.DualShockGamepad ||
+            //    gamepad is UnityEngine.InputSystem.DualShock.DualSenseGamepadHID ||
+            //    gamepad is UnityEngine.InputSystem.DualShock.DualShock3GamepadHID ||
+            //    gamepad is UnityEngine.InputSystem.DualShock.DualShock4GamepadHID)
+            //{
+            //    Debug.Log($"[{GetType()}] Switched to PlayStation Controller");
 
-                _currentDeviceType = DeviceType.PLAYSTATION;
-            }
-            else if (gamepad is UnityEngine.InputSystem.XInput.XInputController ||
-                gamepad is UnityEngine.InputSystem.XInput.IXboxOneRumble ||
-                gamepad is UnityEngine.InputSystem.XInput.XInputControllerWindows)
-            {
-                Debug.Log($"[{GetType()}] Switched to Xbox Controller");
+            //    _currentDeviceType = DeviceType.PLAYSTATION;
+            //}
+            //else if (gamepad is UnityEngine.InputSystem.XInput.XInputController ||
+            //    gamepad is UnityEngine.InputSystem.XInput.IXboxOneRumble ||
+            //    gamepad is UnityEngine.InputSystem.XInput.XInputControllerWindows)
+            //{
+            //    Debug.Log($"[{GetType()}] Switched to Xbox Controller");
 
-                _currentDeviceType = DeviceType.XBOX;
-            }
-            else if (gamepad is UnityEngine.InputSystem.Switch.SwitchProControllerHID)
-            {
-                Debug.Log($"[{GetType()}] Switched to Nintendo Switch Controller");
+            //    _currentDeviceType = DeviceType.XBOX;
+            //}
+            //else if (gamepad is UnityEngine.InputSystem.Switch.SwitchProControllerHID)
+            //{
+            //    Debug.Log($"[{GetType()}] Switched to Nintendo Switch Controller");
 
-                _currentDeviceType = DeviceType.SWITCH;
-            }
-            else
-            {
-                Debug.Log($"[{GetType()}] Switched to Generic Gamepad");
+            //    _currentDeviceType = DeviceType.SWITCH;
+            //}
+            //else
+            //{
+            //    Debug.Log($"[{GetType()}] Switched to Generic Gamepad");
 
-                _currentDeviceType = DeviceType.GENERIC_GAMEPAD;
-            }
+            //    _currentDeviceType = DeviceType.GENERIC_GAMEPAD;
+            //}
         }
         else if (playerInput.currentControlScheme == "Keyboard&Mouse")
         {
