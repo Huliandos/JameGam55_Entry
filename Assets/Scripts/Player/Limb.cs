@@ -5,6 +5,7 @@ namespace Player{
     public class Limb : MonoBehaviour
     {
         public Transform AttachedTo { get; private set; }
+        [SerializeField] bool isAttachingAtStart = false;
         [SerializeField] Transform _attachedAtStart;
 
         [SerializeField] SpringJoint2D _attachementPoint;
@@ -13,7 +14,7 @@ namespace Player{
 
         void Start()
         {
-            if(_attachedAtStart != null)
+            if(_attachedAtStart != null && isAttachingAtStart)
                 Attach(_attachedAtStart);
         }
 

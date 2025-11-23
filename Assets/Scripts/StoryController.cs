@@ -1,11 +1,16 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
+
 public class StoryController : MonoBehaviour
 {
     [SerializeField] GameObject introSpeech;
     [SerializeField] GameObject lostSpeech;
     [SerializeField] GameObject wonSpeech;
+
     [SerializeField] GameObject startButton;
+    [SerializeField] GameObject replayButton;
+
     [SerializeField] Animator kickAnimator;
     [SerializeField] Animator talkAnimator;
     [SerializeField] string talkAnimation = "GFtalk";
@@ -16,17 +21,14 @@ public class StoryController : MonoBehaviour
 
 
 
-
-
-
     public void PlayIntro()
     {
-        //introSpeech.SetActive(true);
-        //lostSpeech.SetActive(false);
-        //wonSpeech.SetActive(false);
+        introSpeech.SetActive(true);
+        lostSpeech.SetActive(false);
+        wonSpeech.SetActive(false);
 
-        //talkAnimator.Play(talkAnimation, 0, 0.0f);
-        //kickAnimator.Play(kickAnimation, 0, 0.0f);
+        talkAnimator.Play(talkAnimation, 0, 0.0f);
+        kickAnimator.Play(kickAnimation, 0, 0.0f);
 
         startButton.SetActive(false);
 
@@ -42,6 +44,8 @@ public class StoryController : MonoBehaviour
 
         talkAnimator.Play(talkAnimation, 0, 0.0f);
         kickAnimator.Play(kickAnimation, 0, 0.0f);
+
+        replayButton.SetActive(true);
     }
 
     private void PlayWon()
@@ -68,5 +72,11 @@ public class StoryController : MonoBehaviour
         yield return new WaitForSeconds(secs);
         GameWonVFX1.SetActive(false);
         GameWonVFX2.SetActive(true);
+        replayButton.SetActive(true);
+    }
+
+    public void ReplayScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
