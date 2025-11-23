@@ -57,10 +57,10 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!231 &5351634594501824765
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -177,10 +177,10 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!231 &1986875096766425259
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -314,6 +314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e0868dd32560bf42b49c1e731cf7391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _attachedAtStart: {fileID: 0}
   _attachementPoint: {fileID: 5351634594501824765}
   _lineRenderer: {fileID: 556734700410235678}
 --- !u!50 &268220511314237761
@@ -339,7 +340,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
