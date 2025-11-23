@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using System.Collections;
 public class StoryController : MonoBehaviour
 {
     [SerializeField] GameObject introSpeech;
@@ -8,9 +8,12 @@ public class StoryController : MonoBehaviour
     [SerializeField] GameObject startButton;
     [SerializeField] Animator kickAnimator;
     [SerializeField] Animator talkAnimator;
-    [SerializeField] private string talkAnimation = "GFtalk";
-    [SerializeField] private string kickAnimation = "GFkick";
-    
+    [SerializeField] string talkAnimation = "GFtalk";
+    [SerializeField] string kickAnimation = "GFkick";
+    [SerializeField] GameObject GameWonVFX1;
+    [SerializeField] GameObject GameWonVFX2;
+    [SerializeField] int requiredCollectibles = 0;
+
 
 
 
@@ -18,14 +21,16 @@ public class StoryController : MonoBehaviour
 
     public void PlayIntro()
     {
-        introSpeech.SetActive(true);
-        lostSpeech.SetActive(false);
-        wonSpeech.SetActive(false);
+        //introSpeech.SetActive(true);
+        //lostSpeech.SetActive(false);
+        //wonSpeech.SetActive(false);
+
+        //talkAnimator.Play(talkAnimation, 0, 0.0f);
+        //kickAnimator.Play(kickAnimation, 0, 0.0f);
 
         startButton.SetActive(false);
 
-        talkAnimator.Play(talkAnimation, 0,0.0f);
-        kickAnimator.Play(kickAnimation, 0, 0.0f);
+        
 
     }
 
@@ -34,6 +39,9 @@ public class StoryController : MonoBehaviour
         introSpeech.SetActive(false);
         lostSpeech.SetActive(true);
         wonSpeech.SetActive(false);
+
+        talkAnimator.Play(talkAnimation, 0, 0.0f);
+        kickAnimator.Play(kickAnimation, 0, 0.0f);
     }
 
     private void PlayWon()
@@ -41,14 +49,24 @@ public class StoryController : MonoBehaviour
         introSpeech.SetActive(false);
         lostSpeech.SetActive(false);
         wonSpeech.SetActive(true);
+
+        talkAnimator.Play(talkAnimation, 0, 0.0f);
+
+        StartCoroutine(gameWonWFX(3));
     }
 
     public void PlayGameEnd()
     {
-        if (Beautify.collectedItems == 5)
+        if (Beautify.collectedItems == requiredCollectibles)
             PlayWon();
         else
             PlayLost();
     }
 
+    IEnumerator gameWonWFX(int secs)
+    {
+        yield return new WaitForSeconds(secs);
+        GameWonVFX1.SetActive(false);
+        GameWonVFX2.SetActive(true);
+    }
 }
