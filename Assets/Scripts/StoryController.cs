@@ -11,6 +11,10 @@ public class StoryController : MonoBehaviour
     [SerializeField] GameObject startButton;
     [SerializeField] GameObject replayButton;
 
+    [SerializeField] GameObject collectedItemsCount, timeSpendCount;
+
+    [SerializeField] TimeTrackerComponent _timer;
+
     [SerializeField] Animator kickAnimator;
     [SerializeField] Animator talkAnimator;
     [SerializeField] string talkAnimation = "GFtalk";
@@ -46,6 +50,9 @@ public class StoryController : MonoBehaviour
         kickAnimator.Play(kickAnimation, 0, 0.0f);
 
         replayButton.SetActive(true);
+
+        collectedItemsCount.SetActive(true); 
+        timeSpendCount.SetActive(true);
     }
 
     private void PlayWon()
@@ -61,7 +68,9 @@ public class StoryController : MonoBehaviour
 
     public void PlayGameEnd()
     {
-        if (Beautify.collectedItems == requiredCollectibles)
+        _timer.Stop();
+
+        if (Beautify.collectedItems >= requiredCollectibles)
             PlayWon();
         else
             PlayLost();
@@ -73,6 +82,9 @@ public class StoryController : MonoBehaviour
         GameWonVFX1.SetActive(false);
         GameWonVFX2.SetActive(true);
         replayButton.SetActive(true);
+        
+        collectedItemsCount.SetActive(true); 
+        timeSpendCount.SetActive(true);
     }
 
     public void ReplayScene()
