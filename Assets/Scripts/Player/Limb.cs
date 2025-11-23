@@ -5,10 +5,17 @@ namespace Player{
     public class Limb : MonoBehaviour
     {
         public Transform AttachedTo { get; private set; }
+        [SerializeField] Transform _attachedAtStart;
 
         [SerializeField] SpringJoint2D _attachementPoint;
         
         [SerializeField] LineRenderer _lineRenderer;
+
+        void Start()
+        {
+            if(_attachedAtStart != null)
+                Attach(_attachedAtStart);
+        }
 
         public void Attach(Transform trans)
         {
