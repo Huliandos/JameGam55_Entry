@@ -17361,6 +17361,10 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.y
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 456954055521403125, guid: 4d9b32e522142d94fb219e69d434f33b, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 632906465029199870, guid: 4d9b32e522142d94fb219e69d434f33b, type: 3}
       propertyPath: m_Enabled
       value: 0
